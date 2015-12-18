@@ -1,0 +1,33 @@
+#Overlay {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
+
+#Header #HeaderNavigation .navLink .navLinkArrow.toggle {
+    filter: progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067690849304, M12=0.7071067690849304, M21=-0.7071067690849304, M22=0.7071067690849304);
+}
+
+#Header #HeaderNavigation .navLink.activeItem .navLinkArrow {
+    filter: progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=-0.7071067811865471, M12=-0.7071067811865479, M21=0.7071067811865479, M22=-0.7071067811865471);
+}
+
+#Header #HeaderNavigation .navLink.activeItem .navLinkArrow.rotateUp {
+    top: -6px;
+}
+
+#Header #ManagerPanel #AccountContainer #signIn #iePasswordPlaceholder {
+    margin-top: -45px;
+}
+
+#Header #HeaderNavigation form #signIn .nextVisit input[type="checkbox"] {
+    margin-top: 4px;
+    display: inline;
+    float: left;
+}
+
+#SubNavPanelWrapper #ManagePanel form .checkBoxDiv label:after {
+    filter: progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865483, M12=0.7071067811865467, M21=-0.7071067811865467, M22=0.7071067811865483);
+}
+
+#languagesList input[type="checkbox"] {
+    display: inline-block !important;
+}

@@ -1,0 +1,487 @@
+/* Imports */
+/* Brand Variables */
+/* Images Variables */
+/* Old Brand Color Variables -- Erase when all  variables are not needed. */
+/* Sheraton Color Variables */
+/* Brand Gradient Variables */
+/* Brand Font Variables */
+/* Brand IPT Variables */
+/* Imports */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+/* Directories */
+/* Brand Directories */
+/* Common Colors */
+/* Imports */
+/* Imports */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+/* Directories */
+/* Brand Directories */
+/* Common Colors */
+.carouselContainer {
+  position: relative;
+  z-index: 200;
+}
+
+.carouselContainer .carouselPlacementWrapper {
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carouselContainer .carouselPlacementWrapper .slideContainer {
+  position: relative;
+  top: 0;
+}
+
+.carouselContainer .carouselPlacementWrapper .slideContainer .imageSlide, .carouselContainer .carouselPlacementWrapper .slideContainer .carouselLoader {
+  width: 100%;
+  position: absolute;
+}
+
+.carouselContainer .carouselPlacementWrapper .slideContainer .imageSlide img, .carouselContainer .carouselPlacementWrapper .slideContainer .carouselLoader img {
+  display: block;
+  margin: 0 auto;
+}
+
+.carouselContainer .carouselPlacementWrapper .carouselControl {
+  background: #000000;
+  color: #ffffff;
+  height: 60px;
+  padding: 17px 19px;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  z-index: 3;
+  -webkit-transition: all, 0.3s;
+  -khtml-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  display: none;
+}
+
+.carouselContainer .carouselPlacementWrapper .carouselControl:before {
+  font-size: 30px;
+}
+
+.carouselContainer .carouselPlacementWrapper .carouselControl:hover {
+  background: #eeeceb;
+}
+
+.carouselContainer .carouselPlacementWrapper .carouselBack {
+  left: 0;
+  -webkit-transform: rotate(-180deg);
+  -khtml-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.carouselContainer .carouselPlacementWrapper .carouselNext {
+  right: 0;
+}
+
+.slideshowContainer {
+  width: 100%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+  height: 250px;
+  overflow: hidden;
+}
+
+.slideshowContainer .carouselNavigation {
+  display: none;
+}
+
+.slideshowContainer .imageSlide {
+  position: absolute;
+  width: 100%;
+}
+
+.slideshowContainer .imageSlide .leftImage {
+  width: 50%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  padding-left: 0;
+  padding-right: 5px;
+}
+
+.slideshowContainer .imageSlide .rightImage {
+  width: 50%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  padding-right: 0;
+  padding-left: 5px;
+}
+
+.slideshowContainer .carouselImage {
+  width: 100%;
+  background-size: 100% auto;
+  height: 250px;
+  background-position: center;
+}
+
+/*# sourceMappingURL=overviewCarousel.css.map */

@@ -1,0 +1,88 @@
+/* Error Messaging */
+.generalErrorMessage {
+    background: no-repeat 10px 10px;
+    border: 1px solid;
+    font-weight: bold;
+    margin-bottom: 10px;
+    min-height: 34px;
+    padding: 10px 10px 10px 60px;
+}
+
+.generalErrorMessage p {
+    margin: 10px 0;
+}
+
+.contentBox label.errorDisplay {
+    background: no-repeat right center;
+    padding-right: 20px;
+    width: 180px;
+    font-weight: bold;
+}
+
+.contentBox input.errorDisplay,
+    .contentBox select.errorDisplay {
+    border: 1px solid;
+}
+
+ul.errorBlockContainer {
+    padding: 0;
+    margin: 10px;
+    border: 1px solid;
+    font-weight: bold;
+    display: none;
+}
+
+ul.errorBlockContainer li {
+    background: no-repeat 5px 3px;
+    padding: 2px 0 2px 25px;
+    margin: 5px 0;
+    list-style-type: none;
+}
+
+.showErrorsMessage, ul.showErrorsMessage {
+    display: block;
+}
+
+.hideErrorMessage, ul.hideErrorMessage {
+    display: none;
+}
+
+/*newer pop-up error styles used by datePicker, locationDropDowns, geoSuggest*/
+.error-container {
+    display: none;
+    position: absolute;
+    width: 350px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.has-error > .error-container {
+    display: block;
+}
+
+.error-container h6 {
+    padding: 3px 5px;
+    text-align: right;
+    background-color: #fff;
+    display: block;
+}
+
+.error-container h6 span {
+    cursor: pointer;
+}
+
+.error-container .errors {
+    padding: 20px;
+    text-align:left;
+    font-size: 12px;
+}
+
+.error-container .error {
+    display: none;
+}
+
+.error-container .error.show {
+    display: block;
+}

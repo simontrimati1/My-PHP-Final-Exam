@@ -1,0 +1,535 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<script type="text/javascript">var ua = navigator.userAgent; var meta = document.createElement('meta');if((ua.toLowerCase().indexOf("android") > -1 && ua.toLowerCase().indexOf("mobile")) || ((ua.match(/iPhone/i)) || (ua.match(/iPod/i)))){ meta.name = 'viewport';	meta.content = 'target-densitydpi=device-dpi, width=480'; }var m = document.getElementsByTagName('meta')[0]; m.parentNode.insertBefore(meta,m);</script>
+	<title>Hotel Africana | Come as a guest, leave as a friend</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://hotelafricana.com/xmlrpc.php" />
+
+
+	<link id="ait-style" rel="stylesheet" type="text/css" media="all" href="http://hotelafricana.com/wp-content/themes/guesthouse2/style.css?1362321917" />
+
+
+
+	<script src="http://maps.google.com/maps/api/js?v=3.2&amp;sensor=false"></script>
+<link rel="alternate" type="application/rss+xml" title="Hotel Africana &raquo; Feed" href="http://hotelafricana.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hotel Africana &raquo; Comments Feed" href="http://hotelafricana.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hotel Africana &raquo; Home Comments Feed" href="http://hotelafricana.com/home/feed/" />
+<link rel='stylesheet' id='CSS_anything-css'  href='http://hotelafricana.com/wp-content/themes/guesthouse2/design/css/anythingslider.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='CSS_colorbox-css'  href='http://hotelafricana.com/wp-content/themes/guesthouse2/design/css/colorbox.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='CSS_header-css'  href='http://hotelafricana.com/wp-content/themes/guesthouse2/design/css/header.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='CSS_fancybox-css'  href='http://hotelafricana.com/wp-content/themes/guesthouse2/design/css/fancybox/jquery.fancybox-1.3.4.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='CSS_comments-css'  href='http://hotelafricana.com/wp-content/themes/guesthouse2/design/css/comments.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='CSS_contact-css'  href='http://hotelafricana.com/wp-content/themes/guesthouse2/design/css/contact.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='CSS_hover_zoom-css'  href='http://hotelafricana.com/wp-content/themes/guesthouse2/design/css/hoverZoom.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='CSS_prettySociable-css'  href='http://hotelafricana.com/wp-content/themes/guesthouse2/design/css/prettySociable.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='CSS_UI-css'  href='http://hotelafricana.com/wp-content/themes/guesthouse2/design/css/jquery-ui-1.8.17.custom.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://hotelafricana.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-theme-css'  href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css?ver=1.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='nivo-slider-style-css'  href='http://hotelafricana.com/wp-content/plugins/m-vslider/nivo-slider.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='wpgmaps-style-css'  href='http://hotelafricana.com/wp-content/plugins/wp-google-maps/css/wpgmza_style.css?ver=3.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/html5.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/jquery.anythingslider.fx.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/jquery.anythingslider.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/jquery.easing.1.3.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/sliders.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/jquery.colorbox-min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/jquery.jcarousel.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/jquery.fancybox-1.3.4.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/jquery.infieldlabel.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/jquery.scroll-to.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/hover.zoom.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/script.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/jquery.prettySociable.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/plugins/m-vslider/jquery.nivo.slider.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/plugins/flash-album-gallery/admin/js/swfobject.js?ver=2.2'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/plugins/flash-album-gallery/admin/js/swfaddress.js?ver=2.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://hotelafricana.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://hotelafricana.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='About Us' href='http://hotelafricana.com/about-us/' />
+<link rel='next' title='Special Offer' href='http://hotelafricana.com/special-offer/' />
+<link rel='canonical' href='http://hotelafricana.com/' />
+
+        
+        <style type="text/css">
+        #rslider1 { width: 660px; height: 220px; margin: 0px 0px 0px 0px; padding: 0; border: none; }
+#rslider2 { width: 960px; height: 220px; margin: 0px 0px 0px 0px; padding: 0; border: none; }
+#rslider3 { width: 960px; height: 220px; margin: 0px 0px 0px 0px; padding: 0; border: none; }
+#rslider4 { width: 960px; height: 220px; margin: 0px 0px 0px 0px; padding: 0; border: none; }
+#rslider5 { width: 960px; height: 220px; margin: 0px 0px 0px 0px; padding: 0; border: none; }
+#rslider6 { width: 960px; height: 220px; margin: 0px 0px 0px 0px; padding: 0; border: none; }
+
+        </style>
+        <script type="text/javascript">
+            /*** M-vSlider Init ***/
+            jQuery.noConflict();
+            jQuery(window).load(function(){
+        jQuery('#rslider1').nivoSlider({ 
+                                    effect: 'fold',
+                                    slices: 15,
+                                    boxCols: 8,
+                                    boxRows: 4,
+                                    animSpeed: 1500, 
+                                    pauseTime: 6000,
+                                    directionNav: true, 
+                                    directionNavHide: true, 
+                                    controlNav: false, 
+                                    controlNavThumbs: false,
+                                    pauseOnHover: true, 
+                                    randomStart: true
+                                });
+jQuery('#rslider2').nivoSlider({ 
+                                    effect: 'fold',
+                                    slices: 15,
+                                    boxCols: 8,
+                                    boxRows: 4,
+                                    animSpeed: 1500, 
+                                    pauseTime: 6000,
+                                    directionNav: true, 
+                                    directionNavHide: true, 
+                                    controlNav: false, 
+                                    controlNavThumbs: false,
+                                    pauseOnHover: true, 
+                                    randomStart: true
+                                });
+jQuery('#rslider3').nivoSlider({ 
+                                    effect: 'fold',
+                                    slices: 15,
+                                    boxCols: 8,
+                                    boxRows: 4,
+                                    animSpeed: 1500, 
+                                    pauseTime: 6000,
+                                    directionNav: true, 
+                                    directionNavHide: true, 
+                                    controlNav: false, 
+                                    controlNavThumbs: false,
+                                    pauseOnHover: true, 
+                                    randomStart: false
+                                });
+jQuery('#rslider4').nivoSlider({ 
+                                    effect: 'fold',
+                                    slices: 15,
+                                    boxCols: 8,
+                                    boxRows: 4,
+                                    animSpeed: 1500, 
+                                    pauseTime: 6000,
+                                    directionNav: false, 
+                                    directionNavHide: false, 
+                                    controlNav: false, 
+                                    controlNavThumbs: false,
+                                    pauseOnHover: true, 
+                                    randomStart: true
+                                });
+jQuery('#rslider5').nivoSlider({ 
+                                    effect: 'fold',
+                                    slices: 15,
+                                    boxCols: 8,
+                                    boxRows: 4,
+                                    animSpeed: 1500, 
+                                    pauseTime: 6000,
+                                    directionNav: true, 
+                                    directionNavHide: true, 
+                                    controlNav: false, 
+                                    controlNavThumbs: false,
+                                    pauseOnHover: true, 
+                                    randomStart: false
+                                });
+jQuery('#rslider6').nivoSlider({ 
+                                    effect: 'fold',
+                                    slices: 15,
+                                    boxCols: 8,
+                                    boxRows: 4,
+                                    animSpeed: 1500, 
+                                    pauseTime: 6000,
+                                    directionNav: true, 
+                                    directionNavHide: true, 
+                                    controlNav: false, 
+                                    controlNavThumbs: false,
+                                    pauseOnHover: true, 
+                                    randomStart: false
+                                });
+
+            });
+        </script>
+        
+<meta name='GRAND FlAGallery' content='3.01' />
+<script type="text/javascript">var src="http://hotelafricana.com/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=F6CF2964310C923077E8A2DA0C628200"; if(window.location.protocol == "https:"){ src = src.replace("http:", "https:"); } var wfHTImg = new Image();  wfHTImg.src=src;</script>
+
+	<!-- facebook open graph -->
+	<meta property="og:description" content="Conveniently Located just 2 minutes from the city center and featuring panoramic views of the city skyline and surrounding hilltops , this fine hotel has over the years become a symbol of excellence, sophistication and high quality..." />
+	<meta property="og:image" content="" />
+
+</head>
+<body class="home page page-id-7 page-template page-template-homepage-php  ait-guesthouse has-cuffon" data-themeurl="http://hotelafricana.com/wp-content/themes/guesthouse2">
+<!-- DROPDOWN CONTACT -->
+<div id="dropdown-panel" class="dropdown-panel clear" style="display: none">
+  <div id="dropdown-panel-speed" style="display: none">slow</div>
+  <div class="dropdown-panel-content">
+      <!-- DROPDOWN WIDGET COLUMN 1 :: START -->
+        <div id="1" class="dropdown-panel-widget-col widget-col-1" style="width: 280px">
+        </div>
+      <!-- DROPDOWN WIDGET COLUMN 1 :: END -->
+
+      <!-- DROPDOWN WIDGET COLUMN 2 :: START -->
+        <div id="2" class="dropdown-panel-widget-col widget-col-2" style="width: 280px">
+        </div>
+      <!-- DROPDOWN WIDGET COLUMN 2 :: END -->
+
+      <!-- DROPDOWN WIDGET COLUMN 3:: START -->
+        <div id="3" class="dropdown-panel-widget-col widget-col-3" style="width: 280px; margin-right: 0px">
+        </div>
+      <!-- DROPDOWN WIDGET COLUMN 3 :: END -->
+  </div>
+</div>
+<!-- DROPDOWN CONTACT -->
+
+
+<div class="mainpage">
+  <!-- HEADER -->
+  <header class="header defaultPageWidth">
+    <div class="header-layout">
+
+        <div class="pattern defaultPageWidth">
+        <div class="background defaultPageWidth">
+
+        <div class="header-container">
+          <div class="header-content defaultContentWidth">
+            <div class="logo">
+              <!--<img src="design/img/logo.png" />-->
+              <!--
+    				    <a href="http://hotelafricana.com/"><img src="http://tailoredtechug.com/africana/wp-content/themes/guesthouse/design/img/logo.png" alt="logo" /></a>
+-->
+            </div>
+            <div id="mainmenu-dropdown-duration" style="display: none;">200</div>
+			      <div id="mainmenu-dropdown-easing" style="display: none;">swing</div>
+<nav class="mainmenu"><ul id="menu-main-menu" class="menu clear"><li id="menu-dw-item-5087" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item"><a href="http://hotelafricana.com/"><strong>Home</strong></a></li>
+<li id="menu-dw-item-5090" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://hotelafricana.com/about-us/"><strong>About Us</strong></a></li>
+<li id="menu-dw-item-5099" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://hotelafricana.com/our-rooms/"><strong>Rooms</strong></a></li>
+<li id="menu-dw-item-5098" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://hotelafricana.com/dining/"><strong>Dining</strong></a></li>
+<li id="menu-dw-item-5025" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#"><strong>Facilities</strong></a>
+<ul class="sub-menu">
+	<li id="menu-dw-item-5097" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://hotelafricana.com/conferencing-events/">Conferencing &#038; Events</a></li>
+	<li id="menu-dw-item-5075" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://hotelafricana.com/fitness-center/">Fitness Center</a></li>
+</ul>
+</li>
+<li id="menu-dw-item-5096" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://hotelafricana.com/recreation/"><strong>Recreation</strong></a></li>
+<li id="menu-dw-item-5041" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://hotelafricana.com/shopping/"><strong>Shopping</strong></a></li>
+<li id="menu-dw-item-5143" class="menu-item menu-item-type-post_type menu-item-object-flagallery"><a href="http://hotelafricana.com/flagallery/gallery/"><strong>Gallery</strong></a></li>
+<li id="menu-dw-item-5086" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://hotelafricana.com/reservations/"><strong>Reservations</strong></a></li>
+<li id="menu-dw-item-5162" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://hotelafricana.com/special-offers/"><strong>Special Offers</strong></a></li>
+<li id="menu-dw-item-5091" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://hotelafricana.com/contact-us/"><strong>Contact Us</strong></a></li>
+</ul></nav>
+            <!-- WPML plugin required -->
+      	    <!-- WPML plugin required -->
+
+            <!-- DROPDOWN CONTACT CONTROLS -->
+            <!-- DROPDOWN CONTACT CONTROLS -->
+          </div>
+
+        </div>
+
+
+
+
+
+<div class="slider-content type1">
+
+            <div class="slider defaultPageWidth">
+
+<div id="slider-container" class="slider-container">
+  <div id="formEnabledInputs" style="display:none">
+    <div style="display:none">From</div>
+    <div style="display:none">To</div>
+  </div>
+  <div id="showRoomSearchByDefault" style="display:none">false</div>
+	<div id="slider-delay" style="display:none">6000</div>
+    <div id="slider-animTime" style="display:none">300</div>
+    <div id="slider-animType" style="display:none">linear</div>
+    <div id="slider-height" style="display:none">430</div>
+
+	<div id="main-background-slider-bottom" style="display:none;"><img src="#" alt="top" /></div>
+    <div id="main-background-slider-top" style="display:none;"><img src="#" alt="bottom" /></div>
+
+    <div id="preload--background-slider-images" style="display: none;">
+
+    </div>
+	<ul id="slider" class="slider slide clear">
+		<li>
+			<a id="room-viewer-link-0" class="room-viewer-link" href="http://hotelafricana.com/room/double-room/">
+			  <img class="slider-container-img" src="http://hotelafricana.com/wp-content/themes/guesthouse2/AIT/Framework/Libs/timthumb/timthumb.php?src=http://hotelafricana.com/wp-content/uploads/2013/01/executive-twin1.jpg&amp;w=980&amp;h=430" alt="" />
+			</a>
+
+			<div class="caption">
+			  <strong class="caption-title">Executive Twin</strong>
+				<p>Each room has it's own bathroom, including jacuzzi for suites as an additional feature, a balcony, satellite television, radio, fridge and telephone, all air conditioned.</p>
+				</div>
+		</li>
+		<li>
+			<a id="room-viewer-link-1" class="room-viewer-link" href="http://hotelafricana.com/room/bedroom/">
+			  <img class="slider-container-img" src="http://hotelafricana.com/wp-content/themes/guesthouse2/AIT/Framework/Libs/timthumb/timthumb.php?src=http://hotelafricana.com/wp-content/uploads/2013/01/executive-deluxe1.jpg&amp;w=980&amp;h=430" alt="" />
+			</a>
+
+			<div class="caption">
+			  <strong class="caption-title">Executive Deluxe</strong>
+				<p>The spacious Executive Deluxe Rooms are especially suitable for families, having both a queen and a single bed.</p>
+				</div>
+		</li>
+		<li>
+			<a id="room-viewer-link-2" class="room-viewer-link" href="http://hotelafricana.com/room/guest-room/">
+			  <img class="slider-container-img" src="http://hotelafricana.com/wp-content/themes/guesthouse2/AIT/Framework/Libs/timthumb/timthumb.php?src=http://hotelafricana.com/wp-content/uploads/2013/01/executive-suite1.jpg&amp;w=980&amp;h=430" alt="" />
+			</a>
+
+			<div class="caption">
+			  <strong class="caption-title">Executive Suite</strong>
+				<p>The executive suites feature a well furnished lounge with a dining table, mini-bar, air conditioning and 24 hour room service.</p>
+				</div>
+		</li>
+		<li>
+			<a id="room-viewer-link-3" class="room-viewer-link" href="http://hotelafricana.com/room/double-room-2/">
+			  <img class="slider-container-img" src="http://hotelafricana.com/wp-content/themes/guesthouse2/AIT/Framework/Libs/timthumb/timthumb.php?src=http://hotelafricana.com/wp-content/uploads/2013/01/apartments1.jpg&amp;w=980&amp;h=430" alt="" />
+			</a>
+
+			<div class="caption">
+			  <strong class="caption-title">Apartments</strong>
+				<p>8 Apartments with three Bedrooms each costing $350 daily and $3500 per month payable in advance inclusive of 18% VAT and exclusive of breakfast.</p>
+				</div>
+		</li>
+	</ul>
+
+	<div class="room-options-container">
+	   <div class="room-options-container-top">
+        <div class="room-options-container-top-left"></div>
+        <div class="room-options-container-top-right"></div>
+     </div>
+	   <div class="room-options-container-bottom">
+	     <div class="room-data">
+       </div>
+	     <ul class="room-controls">
+
+
+            <li>
+              <a href="http://hotelafricana.com/reservations/"  id="room-controls-3">
+                <img src="http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/room-viewer-icon1.png" alt="Place a Reservation" />
+              <span>Place a Reservation</span>
+              </a>
+            </li>
+        </ul>
+     </div>
+	</div>
+
+	<div class="room-description-container"></div>
+
+</div><!-- end of slider -->
+
+</div>
+            <div class="white-space"></div>
+            </div>
+          </div>
+
+
+
+    </div>
+    </div>
+	</header>
+
+	<div class="content defaultPageWidth">
+
+
+
+
+
+    <!-- CONTENT -->
+
+<div class="page-content">
+<div id="container" class="home defaultContentWidth clear onecolumn">
+
+
+  	<div id="content" class="mainbar entry-content" style="text-align: center; margin: 0 auto; padding-bottom: 10px;">
+  		<h3>Conveniently Located just 2 minutes from the city center and featuring panoramic views of the city skyline and surrounding hilltops , this <strong>fine hotel</strong> has over the years become a symbol of <strong>excellence</strong>, <strong>sophistication</strong> and high <strong>quality service</strong>.</h3>
+
+  	</div>
+
+</div>
+</div>
+
+<div class="separator-line-new"></div>
+		<!-- end of page-content -->
+		<!-- SERVICES -->
+<!-- NEW SERVICE BOX LAYOUT :: START -->
+  <div class="service-boxes clear">
+    <div class="service-boxes-container">
+        <div class="service-box" id="sbox1">
+          <div class="service-box-content" style="width: px">
+            <div class="service-box-image-mirror">
+              <div class="service-box-image-container" style="background: url('http://hotelafricana.com/wp-content/uploads/2013/01/1.jpg') no-repeat; width: px; height: 120px;">
+                <div class="service-box-title-container">
+                  <h2><a href="">Accommodation</a></h2>
+                </div>
+              </div>
+            </div>
+            <p>At Hotel Africana, you can choose from a range of hotel accommodation from guest rooms to spacious suites.</p>
+          </div>
+        </div>
+        <div class="service-box" id="sbox2">
+          <div class="service-box-content" style="width: px">
+            <div class="service-box-image-mirror">
+              <div class="service-box-image-container" style="background: url('http://hotelafricana.com/wp-content/uploads/2013/01/4.jpg') no-repeat; width: px; height: 120px;">
+                <div class="service-box-title-container">
+                  <h2><a href="#">Flexible Meeting Rooms</a></h2>
+                </div>
+              </div>
+            </div>
+            <p>If you need to organize a meeting or conference in Kampala we offer you 14 flexible meeting rooms with options to host up to 20-3000 guests.</p>
+          </div>
+        </div>
+        <div class="service-box" id="sbox3">
+          <div class="service-box-content" style="width: px">
+            <div class="service-box-image-mirror">
+              <div class="service-box-image-container" style="background: url('http://hotelafricana.com/wp-content/uploads/2013/01/2.jpg') no-repeat; width: px; height: 120px;">
+                <div class="service-box-title-container">
+                  <h2><a href="#">The Health Club</a></h2>
+                </div>
+              </div>
+            </div>
+            <p>Our equipped Health Club features a cardiovascular gymnasium and outdoor pool for you to enjoy or relax.</p>
+          </div>
+        </div>
+        <div class="service-box" id="sbox4">
+          <div class="service-box-content" style="width: px">
+            <div class="service-box-image-mirror">
+              <div class="service-box-image-container" style="background: url('http://hotelafricana.com/wp-content/uploads/2013/01/3.jpg') no-repeat; width: px; height: 120px;">
+                <div class="service-box-title-container">
+                  <h2><a href="#">Exquisite Dining</a></h2>
+                </div>
+              </div>
+            </div>
+            <p>Hotel Africana also boasts stylish Bars and Restaurants. The Restaurants serve themed lunches and dinners offering international cuisine.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="separator-line"></div>
+<!-- NEW SERVICE BOX LAYOUT :: END -->
+		<div class="tooltip-icons">
+			<div class="text defaultContentWidth clear">
+				<div class="text-inside">
+				<span style="margin: 0px 10px;"><a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-1.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-2.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-3.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-4.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-5.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-6.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-7.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a></span><span style="margin: 0px 10px;"><a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-8.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-9.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-10.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-11.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-12.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-13.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a></span><span style="margin: 0px 10px;"><a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-14.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-15.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-16.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-17.png') no-repeat scroll center center #ffffff; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a></span><span style="margin: 0px 10px;"><a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-18.png') no-repeat scroll center center #c24225; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-19.png') no-repeat scroll center center #c24225; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-20.png') no-repeat scroll center center #c24225; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-21.png') no-repeat scroll center center #c24225; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a> <a href="#" class="sc-button light" style="background: url('http://hotelafricana.com/wp-content/themes/guesthouse2/design/img/icons-22.png') no-repeat scroll center center #c24225; width: 18px; height: 18px;"><span class="border"><span class="wrap"><span class="title" style="color: #ffffff;"></span><span class="description"></span></span></span></a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer class="footer defaultPageWidth">
+
+		<div class="footer-widgets clear">
+		  <style type="text/css" scoped="scoped">
+		  .footer-widgets .col-1 { width: 239px }
+		  .footer-widgets .col-2 { width: 250px }
+		  .footer-widgets .col-3 { width: 173px }
+		  .footer-widgets .col-4 { width: 214px }
+		  .footer-widgets .col-5 { width: 200px }
+		  .footer-widgets .col-6 { width: 200px }
+		  </style>
+      <div class="footer-widgets-container">
+			</div>
+		</div>
+		<div class="footer-links clear">
+      <div class="copyright"><p>© 2012 Hotel Africana. All rights reserved.</p></div>
+			<div class="links">
+<nav class="footer-menu"><ul id="menu-main-menu-1" class="menu clear"><li id="menu-item-5087" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-5087"><a href="http://hotelafricana.com/">Home</a></li>
+<li id="menu-item-5090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5090"><a href="http://hotelafricana.com/about-us/">About Us</a></li>
+<li id="menu-item-5099" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5099"><a href="http://hotelafricana.com/our-rooms/">Rooms</a></li>
+<li id="menu-item-5098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5098"><a href="http://hotelafricana.com/dining/">Dining</a></li>
+<li id="menu-item-5025" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5025"><a href="#">Facilities</a></li>
+<li id="menu-item-5096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5096"><a href="http://hotelafricana.com/recreation/">Recreation</a></li>
+<li id="menu-item-5041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5041"><a href="http://hotelafricana.com/shopping/">Shopping</a></li>
+<li id="menu-item-5143" class="menu-item menu-item-type-post_type menu-item-object-flagallery menu-item-5143"><a href="http://hotelafricana.com/flagallery/gallery/">Gallery</a></li>
+<li id="menu-item-5086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5086"><a href="http://hotelafricana.com/reservations/">Reservations</a></li>
+<li id="menu-item-5162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5162"><a href="http://hotelafricana.com/special-offers/">Special Offers</a></li>
+<li id="menu-item-5091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5091"><a href="http://hotelafricana.com/contact-us/">Contact Us</a></li>
+</ul></nav>			</div>
+		</div>
+	</footer><!-- end of footer -->
+</div><!-- end of mainpage -->
+
+
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.36.0-2013.06.16'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/hotelafricana.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://hotelafricana.com/wp-includes/js/jquery/ui/jquery.ui.datepicker.min.js?ver=1.9.2'></script>
+<!-- 
+			Plugin: Super Simple Google Analytics 
+	Plugin URL: Super Simple Google Analytics
+
+
+	-->
+
+<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-10358324-14']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+			<script id="ait-cufon-script" src="http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/cufon.js"></script>
+						<script id="ait-cufon-font-script" src="http://hotelafricana.com/wp-content/themes/guesthouse2/design/fonts/Myriad_Web.js"></script>
+			
+			<script id="ait-cufon-font-replace">
+														Cufon.now();
+										Cufon.replace('.reservation-form h5.book-now-button a', {
+						fontFamily: "Myriad+Web".replace(/\+/g, ' ')
+												, hover: {color: '#000000'}
+											});
+										Cufon.replace('h5.book-now-button-subpage a, .mainmenu > ul > li > a, .room-options-container-bottom ul.room-controls li a', {
+						fontFamily: "Myriad+Web".replace(/\+/g, ' ')
+												, hover: {color: '#e0a328'}
+											});
+										Cufon.replace('.room-options-container-bottom ul.room-controls li span', {
+						fontFamily: "Myriad+Web".replace(/\+/g, ' ')
+												, hover: {color: '#e0a328'}
+											});
+										Cufon.replace('.mainmenu > ul > li	> a', {
+						fontFamily: "Myriad+Web".replace(/\+/g, ' ')
+																	});
+										Cufon.replace('.slider .room-description-container h1', {
+						fontFamily: "Myriad+Web".replace(/\+/g, ' ')
+																	});
+										Cufon.replace('.room-description-container strong.caption-title', {
+						fontFamily: "Myriad+Web".replace(/\+/g, ' ')
+																	});
+										Cufon.replace('ul.tabs > li > a', {
+						fontFamily: "Myriad+Web".replace(/\+/g, ' ')
+																	});
+										Cufon.replace('.hentry .date-box .date, .hentry .date-box .month, .hentry .comments-box .comments-link, .services a.more, a.bigbut, .sc-button .title, .widget-container h2, .widget-container h5, .service-box h2, .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .reservation-form h3, .dropdown-panel-control-button h5', {
+						fontFamily: "Myriad+Web".replace(/\+/g, ' ')
+																	});
+										Cufon.replace('.mainmenu > ul > li > a	> strong', {
+						fontFamily: "Myriad+Web".replace(/\+/g, ' ')
+																	});
+												</script>
+
+
+<script type="text/javascript" src="http://hotelafricana.com/wp-content/themes/guesthouse2/design/js/libs/cluster.js"></script>
+</body>
+
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+
+ Served from: hotelafricana.com @ 2013-07-15 13:46:48 by W3 Total Cache -->

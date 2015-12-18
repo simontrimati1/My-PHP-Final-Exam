@@ -1,0 +1,447 @@
+BrightTag.instance.errors({enabled:false});
+BrightTag.instance.load(
+'//s.btstatic.com/lib/40acd31334c17b8ab2405da4a96838ab1394a5c2.js?v\x3d1',
+'//s.btstatic.com/lib/abb5af81099611c078c8d31d574d570cf624f04a.js?v\x3d1',
+function (page) {
+BrightTag.instance.dbe('regional: lad: property list match', 'BtStarwood.propertyMatch(\x22LAD\x22, s.prop1)', {pageId:1912});
+BrightTag.instance.dbe('global: random number', 'BrightTag.Random.integer(9999999999)', {pageId:1912});
+BrightTag.instance.dbe('regional: nad: focus needs sheraton ', 'BtStarwood.propertyMatch(\x22NADFocusSheraton\x22, s.prop1)', {pageId:1912});
+BrightTag.instance.dbe('global: ip address recognition ', 'SW.local.userData.countryCode', {pageId:1912});
+BrightTag.instance.dbe('global: language', 's.prop3.split(\x27:\x27)[0]', {pageId:2496});
+BrightTag.instance.dbe('regional: emea: sheraton club turn', 'BtStarwood.propertyMatch(\x22EMEASheratonClubTurn\x22, s.prop1)', {pageId:2496});
+BrightTag.instance.dbe('regional: emea: abu dhabi property list match', 'BtStarwood.propertyMatch(\x22EMEAAbuDhabi\x22, s.prop1)', {pageId:2496});
+BrightTag.instance.dbe('global: property id', 's.prop1', {pageId:1912});
+BrightTag.instance.dbe('regional: emea: dubai property list match', 'BtStarwood.propertyMatch(\x22EMEADubai\x22, s.prop1)', {pageId:2496});
+BrightTag.instance.dbe('regional: emea: florence property list match', 'BtStarwood.propertyMatch(\x22EMEAFlorence\x22, s.prop1)', {pageId:2496});
+BrightTag.instance.dbe('regional: emea: london property list match', 'BtStarwood.propertyMatch(\x22EMEALondon\x22, s.prop1)', {pageId:2496});
+BrightTag.instance.dbe('global: spg level', 's.prop28', {pageId:2496});
+BrightTag.instance.dbe('global: site brand code', 's.prop2', {pageId:1912});
+BrightTag.instance.dbe('global: guest master profile capture', 's.prop48', {pageId:1912});
+BrightTag.instance.dbe('global: document referrer', 'document.referrer', {pageId:1912});
+BrightTag.instance.dbe('global: property city', 'document.getElementsByClassName(\x22locality\x22)[0].innerHTML.replace(/ /g,\x22_\x22).replace(/\x3cspan\x3e/g,\x22\x22).replace(\x22\x3c/span\x3e\x22,\x22\x22)', {pageId:1323437});
+BrightTag.instance.dbe('global: site brand confirmation page', 'document.URL.split(\x27.com/\x27)[1].split(\x27/\x27)[0]', {pageId:2496});
+BrightTag.instance.dbe('global: property country', 'document.getElementsByClassName(\x22country-name\x22)[0].innerHTML.replace(/ /g,\x22_\x22).replace(/\x3cspan\x3e/g,\x22\x22).replace(\x22\x3c/span\x3e\x22,\x22\x22)', {pageId:1323437});
+BrightTag.instance.dbe('global: spg recognition', ' s.prop28', {pageId:1912});
+BrightTag.instance.dbe('adobe user capture', 's.prop60', {pageId:1912});
+BrightTag.instance.dbe('regional: nad: americas property list match ', 'BtStarwood.propertyMatch(\x22Americas2014\x22, s.prop1)', {pageId:1323437});
+BrightTag.instance.dbe('regional: nad: sheraton mastercard campaign property list match', 'BtStarwood.propertyMatch(\x22SheratonMastercard2015\x22, s.prop1)', {pageId:27226});
+BrightTag.instance.dbe('global: arrival date or check-in date', 'jQuery(\x27#swui-arrival-date-1\x27).attr(\x27value\x27)', {pageId:27226});
+BrightTag.instance.dbe('global: site section', 's.prop9', {pageId:1912});
+BrightTag.instance.dbe('global: departure date or check-out date', 'jQuery(\x27#swui-departure-date-1\x27).attr(\x27value\x27)', {pageId:27226});
+BrightTag.instance.dbe('regional: emea: property list match', 'BtStarwood.propertyMatch(\x22EMEA\x22, s.prop1)', {pageId:1912});
+BrightTag.instance.dbe('regional: apac: property list match', 'BtStarwood.propertyMatch(\x22APAC\x22, s.prop1)', {pageId:2496});
+BrightTag.instance.dbe('global: document url', 'document.URL', {pageId:1912});
+BrightTag.instance.store([{name:'btpdb.REqL8dD.dGZjLjE2MzcwNjE', value:'VVNFUg', expires:1481667287760},{name:'btpdb.REqL8dD.dGZjLjEzNjkxNTQ', value:'U0VTU0lPTg'},{name:'btpdb.REqL8dD.dGZjLjI3OTEyMDg', value:'U0VTU0lPTg'},{name:'btpdb.REqL8dD.dGZjLjE2MzY5NDA', value:'U0VTU0lPTg'}]);
+BrightTag.instance.appendContent('\x3ciframe src\x3d\x22//switch.atdmt.com/iaction/uat_homepage_sheraton\x22 width\x3d\x221\x22 height\x3d\x221\x22 frameborder\x3d\x220\x22 scrolling\x3d\x22No\x22 marginheight\x3d\x220\x22 marginwidth\x3d\x220\x22 topmargin\x3d\x220\x22 leftmargin\x3d\x220\x22 style\x3d\x22display:none;\x22\x3e\x3c/iframe\x3e',{tagId:3762});
+BrightTag.instance.appendContent('\x3ciframe src\x3d\x22http://view.atdmt.com/iaction/FM_Pages_Sheraton\x22 width\x3d\x221\x22 height\x3d\x221\x22 frameborder\x3d\x220\x22 scrolling\x3d\x22No\x22 marginheight\x3d\x220\x22 marginwidth\x3d\x220\x22 topmargin\x3d\x220\x22 leftmargin\x3d\x220\x22 style\x3d\x22display:none;\x22\x3e\x3c/iframe\x3e',{tagId:6070});
+BrightTag.instance.appendContent('\x3cimg src\x3d\x22//pixel.mathtag.com/event/img?mt_id\x3d146506\x26mt_adid\x3d101782\x26v1\x3d\x26v2\x3d\x26v3\x3d\x26s1\x3d\x26s2\x3d\x26s3\x3d\x26ord\x3d'+bt_data_escaped('global: random number')+'\x22 width\x3d\x221\x22 height\x3d\x221\x22 /\x3e',{tagId:15511});
+BrightTag.instance.appendContent('\x3cimg src \x3d\x22https://pixel.rubiconproject.com/tap.php?v\x3d17637\x26rs\x3dnc\x22 style\x3d\x22display:none\x22 /\x3e\n\x3cimg src \x3d\x22https://beacon.rubiconproject.com/beacon/p/tap?nid\x3d2181\x26v\x3d17637\x22 style\x3d\x22display:none\x22 /\x3e',{tagId:33329});
+BrightTag.instance.appendContent('\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22//tag.yieldoptimizer.com/ps/ps?t\x3ds\x26p\x3d1062\x26pg\x3dsheraton\x22\x3e\x3c/script\x3e',{tagId:42217});
+BrightTag.instance.appendContent('\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://www.googleadservices.com/pagead/conversion_async.js\x22\x3e\x3c/script\x3e\n      \x3cscript type\x3d\x22text/javascript\x22\x3e\n        (function () {\n          var google_tag_params \x3d {};\n          BrightTag.each([{key:"SPGlevel",value:bt_data(\x27global: spg level\x27)},{key:"SPGpoints",value:bt_data(\x27global: spg points in account\x27)},{key:"brandsite",value:bt_data(\x27global: site brand code\x27)}], function(prop) {\n            var val \x3d prop.value;\n            try { val \x3d JSON.parse(prop.value); } catch (e) {}\n            google_tag_params[prop.key] \x3d val;\n          });\n          window.google_trackConversion({\n              google_conversion_id: parseInt("1009568068"),\n              google_conversion_label: \x27\x27,\n              google_custom_params: google_tag_params,\n              google_remarketing_only: true\n          });\n        })();\n      \x3c/script\x3e',{tagId:79557,group:'yjss'});
+BrightTag.instance.appendContent('\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://www.googleadservices.com/pagead/conversion_async.js\x22\x3e\x3c/script\x3e\n      \x3cscript type\x3d\x22text/javascript\x22\x3e\n        (function () {\n          var google_tag_params \x3d {};\n          BrightTag.each([], function(prop) {\n            var val \x3d prop.value;\n            try { val \x3d JSON.parse(prop.value); } catch (e) {}\n            google_tag_params[prop.key] \x3d val;\n          });\n          window.google_trackConversion({\n              google_conversion_id: parseInt("996535057"),\n              google_conversion_label: \x27\x27,\n              google_custom_params: google_tag_params,\n              google_remarketing_only: true\n          });\n        })();\n      \x3c/script\x3e',{tagId:137508,group:'yjss'});
+BrightTag.instance.appendContent('\x3cscript type\x3d\x27text/javascript\x27\x3e\nvar axel \x3d Math.random() + \x27\x27;\nvar a \x3d axel * 10000000000000;\ndocument.write(\x27\x3cimg src\x3d\x22http://pubads.g.doubleclick.net/activity;dc_iu\x3d/5349/ta.bfp;dc_seg\x3d19667410;ord\x3d\x27 + a + \x27?\x22 width\x3d\x221\x22 height\x3d\x221\x22 style\x3d\x22display:none;\x22/\x3e\x27);\n\x3c/script\x3e\n',{tagId:164472});
+BrightTag.instance.appendContent('\x3cimg src\x3d\x22http://ads.magnetic.is/seg?add\x3d887253\x26t\x3d2\x22 width\x3d\x221\x22 height\x3d\x221\x22 style\x3d\x22display:none;\x22/\x3e',{tagId:240486});
+BrightTag.instance.appendContent('\x3cscript language\x3d\x27JavaScript\x27\x3e\n var prd\x3dnew Date(),pru\x3dDate.UTC(prd.getUTCFullYear(),prd.getUTCMonth(),prd.getUTCDay(),prd.getUTCHours(),prd.getUTCMinutes(),prd.getUTCSeconds(),prd.getUTCMilliseconds());\n var pr_eid\x3dpru+Math.random();\n var pr_event\x3d\x27\x27;\n var pr_item\x3d\x27\x27;\n var pr_quantity\x3d\x27\x27;\n var pr_value\x3d\x27\x27;\n var pr_ctFrame\x3ddocument.createElement(\x27iframe\x27);\n pr_ctFrame.style.display\x3d\x27none\x27;\n pr_ctFrame.src\x3d\x27https://container.pointroll.com/event/?ctid\x3d30389402-38CA-488C-B2E3-3ABDD75E68A2\x26av\x3d688\x26eid\x3d\x27+pr_eid+\x27\x26ev\x3d\x27+pr_event+\x27\x26item\x3d\x27+pr_item+\x27\x26q\x3d\x27+pr_quantity+\x27\x26val\x3d\x27+pr_value+\x27\x26r\x3d\x27+Math.random();\n document.body.appendChild(pr_ctFrame);\n\x3c/script\x3e',{tagId:424214});
+BrightTag.instance.appendContent('\x3cimg height\x3d\x221\x22 width\x3d\x221\x22 style\x3d\x22display:none;\x22 src\x3d\x22//d.turn.com/r/dd/id/L21rdC80MTAvY2lkLzI4NDUyNjQ4L3QvMg/cat/4/qry//kv/city\x3d'+bt_data_escaped('global: property city')+',order_id\x3d,rooms\x3d,country\x3d'+bt_data_escaped('global: property country')+',b_price\x3d,kids\x3d,Search_Eng\x3d'+bt_data_escaped('global: document referrer')+',lang\x3d'+bt_data_escaped('global: language')+',adult\x3d,prop_id\x3d'+bt_data_escaped('global: property id')+',brand\x3d'+bt_data_escaped('global: site brand confirmation page')+'\x22\x3e',{tagId:620292});
+BrightTag.instance.appendContent('\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://www.googleadservices.com/pagead/conversion_async.js\x22\x3e\x3c/script\x3e\n      \x3cscript type\x3d\x22text/javascript\x22\x3e\n        (function () {\n          var google_tag_params \x3d {};\n          BrightTag.each([], function(prop) {\n            var val \x3d prop.value;\n            try { val \x3d JSON.parse(prop.value); } catch (e) {}\n            google_tag_params[prop.key] \x3d val;\n          });\n          window.google_trackConversion({\n              google_conversion_id: parseInt("989256107"),\n              google_conversion_label: \x27\x27,\n              google_custom_params: google_tag_params,\n              google_remarketing_only: true\n          });\n        })();\n      \x3c/script\x3e',{tagId:906974,group:'yjss'});
+BrightTag.instance.appendContent('\x3cimg src\x3d\x22//leadback.advertising.com/adcedge/lb?site\x3d695501\x26betr\x3dSheratonRR%3D%5B%2B%5D3day%5B72%5D%2C12hour%5B12%5D%2C14day%5B336%5D%2C2day%5B48%5D%2C4day%5B96%5D%2C1day%5B24%5D%2C30day%5B720%5D%2C1year%5B8760%5D\x22 width\x3d\x221\x22 height\x3d\x221\x22 style\x3d\x22display:none\x22 border\x3d\x220\x22 /\x3e',{tagId:1369154});
+BrightTag.instance.appendContent('\x3cscript type\x3d\x22text/javascript\x22\x3e\n        function createPixel(subdomain) {\n          var src \x3d \x27//\x27 + subdomain + \x27.adnxs.com/seg?add\x3d1343790\x27;\n\n          if ("2" \x3d\x3d \x221\x22) {\n            src +\x3d \x27\x26t\x3d1\x27;\n            BrightTag.Content.script(src);\n          } else {\n            src +\x3d \x27\x26t\x3d2\x27;\n            BrightTag.Content.image(src);\n          }\n        }\n      \x3c/script\x3e\n      \x3cscript type\x3d\x22text/javascript\x22\x3e\n        createPixel(\x27ib\x27);\n      \x3c/script\x3e',{tagId:1518644});
+try { BrightTag.instance.appendContent('\x3cimg src\x3d\x22//media.fastclick.net/w/tre?ad_id\x3d23102;evt\x3d26076;cat1\x3d36256;cat2\x3d36257;rand\x3d'+eval('BrightTag.Random.integer()')+'\x22 width\x3d\x221\x22 height\x3d\x221\x22 border\x3d\x220\x22 /\x3e',{tagId:1636940});
+} catch(e) { bt_handle_exception(e); }
+try { BrightTag.instance.appendContent('\x3cscript type\x3d\x27text/javascript\x27\x3e\n        (function() {\n          var items \x3d [],\n            prdArr \x3d [],\n            varsString \x3d \x27\x27.replace(/\\s+/g, \x27%20\x27);\n\n          if (!BrightTag.Types.isArray(items)) {\n            items \x3d [items];\n          };\n\n          var addIfDefined \x3d function(fieldName, keyStr, indexStr) {\n            if (fieldName) {\n              prdArr.push(keyStr + indexStr + \x22:\x22 + fieldName);\n            }\n          }\n\n          BrightTag.Util.each(items, function(prod, index) {\n            var indexStr \x3d (index + 1);\n            addIfDefined(prod[\x22\x22], \x22i\x22, indexStr);\n            addIfDefined(prod[\x22\x22], \x22p\x22, indexStr);\n            addIfDefined(prod[\x220\x22], \x22q\x22, indexStr);\n            addIfDefined(prod[\x22\x22], \x22c\x22, indexStr);\n            addIfDefined(prod[\x22\x22], \x22l\x22, indexStr);\n            addIfDefined(prod[\x22\x22], \x22a\x22, indexStr);\n          });\n\n          BrightTag.Content.image(\x22https://ad.doubleclick.net/activity;src\x3d4161111;type\x3dinvmedia;cat\x3ddf7erv0i\x22 + varsString + \x22;ord\x3d'+eval('Math.random()*10000000000000')+';prd\x3d\x22 + prdArr.join(\x22|\x22));\n        })();\n      \x3c/script\x3e',{tagId:1637061});
+} catch(e) { bt_handle_exception(e); }
+BrightTag.instance.appendContent('\x3cscript\x3e\n        (function() {\n          var customVars \x3d [],\n          url \x3d new BrightTag.HTTP.URL(\x27https://googleads.g.doubleclick.net/pagead/viewthroughconversion/\x27 +\n            "947731896"+\x27/\x27).appendParams({\n              \x27value\x27: \x270\x27,\n              \x27label\x27: \x27\x27,\n              \x27guid\x27: \x27ON\x27,\n              \x27script\x27: \x270\x27\n            });\n\n          BrightTag.each([{key:"hrental_id",value:bt_data(\x27global: property id\x27)},{key:"hrental_pagetype",value:bt_data(\x27global: site section\x27)},{key:"hrental_startdate",value:bt_data(\x27global: arrival date or check-in date\x27)},{key:"hrental_enddate",value:bt_data(\x27global: departure date or check-out date\x27)},{key:"hrental_totalvalue",value:bt_data(\x27global: revenue\x27)},{key:"hrental_hotelbrand",value:bt_data(\x27global: site brand code\x27)},{key:"hrental_country",value:bt_data(\x27global: property country\x27)}], function(prop) {\n            if (BrightTag.Types.isArray(prop.value)) {\n              prop.value \x3d prop.value.join(\x27,\x27);\n            }\n\n            BrightTag.pushIfDefined(customVars, prop.key + \x22\x3d\x22 + prop.value);\n          });\n\n          url.appendParam(\x22data\x22, customVars.join(\x22;\x22));\n\n          new Image().src \x3d url.toString();\n        }());\n      \x3c/script\x3e',{tagId:2660289,group:'yjss'});
+BrightTag.instance.appendContent('\x3cimg style\x3d\x22display:none;\x22 src\x3d\x22//rs.gwallet.com/r1/pixel/xx23435r1651505273\x22/\x3e',{tagId:2791208});
+BrightTag.instance.appendContent('\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22//pixel.mathtag.com/event/js?mt_id\x3d825581\x26mt_adid\x3d147031\x26\x22\x3e\x3c/script\x3e',{tagId:3148091});
+BrightTag.EventBinding.when('photos button click').fire(31429);
+BrightTag.instance.secondary(function(serverURL) {
+try { if (eval('bt_data(\x27regional: lad: property list match\x27) \x3d\x3d true')) {
+serverURL.cf(14367);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(bt_data(\x27regional: nad: focus needs sheraton \x27) \x3d\x3d true \x26\x26 bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22)')) {
+serverURL.cf(33138);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: language\x27)\x3d\x3d\x22en_US\x22 || bt_data(\x27global: language\x27) \x3d\x3d \x22\x22')) {
+serverURL.cf(38808);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: language\x27) \x3d\x3d \x27de_DE\x27')) {
+serverURL.cf(38809);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: language\x27) \x3d\x3d \x27fr_FR\x27')) {
+serverURL.cf(38810);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: language\x27) \x3d\x3d \x27es_ES\x27')) {
+serverURL.cf(38811);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: language\x27) \x3d\x3d \x27it_IT\x27')) {
+serverURL.cf(38812);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: language\x27) \x3d\x3d \x27de_DE\x27 \x26\x26 bt_data(\x27regional: emea: sheraton club turn\x27)')) {
+serverURL.cf(42111);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('( bt_data(\x27global: language\x27)\x3d\x3d\x22en_US\x22 || bt_data(\x27global: language\x27) \x3d\x3d \x22\x22 ) \x26\x26 bt_data(\x27regional: emea: sheraton club turn\x27)')) {
+serverURL.cf(42112);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: language\x27) \x3d\x3d \x27es_ES\x27 \x26\x26 bt_data(\x27regional: emea: sheraton club turn\x27)')) {
+serverURL.cf(42113);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: language\x27) \x3d\x3d \x27fr_FR\x27 \x26\x26 bt_data(\x27regional: emea: sheraton club turn\x27)')) {
+serverURL.cf(42114);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: language\x27) \x3d\x3d \x27it_IT\x27 \x26\x26 bt_data(\x27regional: emea: sheraton club turn\x27)')) {
+serverURL.cf(42115);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22')) {
+serverURL.cf(44056);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: emea: abu dhabi property list match\x27) || bt_data(\x27global: property id\x27) \x3d\x3d \x22noID\x22')) {
+serverURL.cf(52371);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: emea: dubai property list match\x27) || bt_data(\x27global: property id\x27) \x3d\x3d \x22noID\x22')) {
+serverURL.cf(52376);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: emea: florence property list match\x27) || bt_data(\x27global: property id\x27) \x3d\x3d \x22noID\x22')) {
+serverURL.cf(52377);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: emea: london property list match\x27) || bt_data(\x27global: property id\x27) \x3d\x3d \x22noID\x22')) {
+serverURL.cf(52378);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: spg level\x27).indexOf(\x22(E)\x22) \x3c 0')) {
+serverURL.cf(194010);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 220')) {
+serverURL.cf(296751);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 1391')) {
+serverURL.cf(296755);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 377')) {
+serverURL.cf(296760);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 468')) {
+serverURL.cf(296764);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 421')) {
+serverURL.cf(296769);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('((!!bt_data(\x27global: guest master profile capture\x27) \x26\x26 bt_data(\x27global: guest master profile capture\x27) !\x3d 0 \x26\x26 bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22) \x26\x26 (bt_data(\x27global: guest master profile capture\x27).indexOf(\x22Unprofiled\x22) \x3c 0 \x26\x26 bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22))')) {
+serverURL.cf(454398);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 1422')) {
+serverURL.cf(552750);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 3018')) {
+serverURL.cf(552761);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 3091')) {
+serverURL.cf(552765);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 3595')) {
+serverURL.cf(552774);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 772')) {
+serverURL.cf(552777);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 1134')) {
+serverURL.cf(552779);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 361')) {
+serverURL.cf(552801);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 1235')) {
+serverURL.cf(552806);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 3092')) {
+serverURL.cf(552813);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 3342')) {
+serverURL.cf(552824);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 3569')) {
+serverURL.cf(552833);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 735')) {
+serverURL.cf(552837);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 353')) {
+serverURL.cf(624248);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 3855')) {
+serverURL.cf(624257);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 4046')) {
+serverURL.cf(624261);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('((bt_data(\x27global: spg recognition\x27).indexOf(\x22SPG Authenticated\x22) \x3e -1 \x26\x26 bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22) || (bt_data(\x27global: spg recognition\x27).indexOf(\x22SPG Recognized\x22) \x3e -1 \x26\x26 bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22))')) {
+serverURL.cf(640637);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(bt_data(\x27global: spg recognition\x27).indexOf(\x22Non-SPG\x22) \x3e -1 \x26\x26 bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22)')) {
+serverURL.cf(640641);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 370')) {
+serverURL.cf(896345);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 372')) {
+serverURL.cf(896358);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 449')) {
+serverURL.cf(896370);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 3627')) {
+serverURL.cf(896403);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 129')) {
+serverURL.cf(896462);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 281')) {
+serverURL.cf(896489);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('((bt_data(\x27global: property id\x27) \x3d\x3d 140 || bt_data(\x27global: property id\x27) \x3d\x3d 370 || bt_data(\x27global: property id\x27) \x3d\x3d 372) || bt_data(\x27global: property id\x27) \x3d\x3d 449 || bt_data(\x27global: property id\x27) \x3d\x3d 3627 || bt_data(\x27global: property id\x27) \x3d\x3d 1183 || bt_data(\x27global: property id\x27) \x3d\x3d 1185 || bt_data(\x27global: property id\x27) \x3d\x3d 1305 || bt_data(\x27global: property id\x27) \x3d\x3d 3800 || bt_data(\x27global: property id\x27) \x3d\x3d 3878 || bt_data(\x27global: property id\x27) \x3d\x3d 129 || bt_data(\x27global: property id\x27) \x3d\x3d 281 || bt_data(\x27global: property id\x27) \x3d\x3d 283 || bt_data(\x27global: property id\x27) \x3d\x3d 1443 || bt_data(\x27global: property id\x27) \x3d\x3d 1840 || bt_data(\x27global: property id\x27) \x3d\x3d 1935 || bt_data(\x27global: property id\x27) \x3d\x3d 3277 || bt_data(\x27global: property id\x27) \x3d\x3d 3388 || bt_data(\x27global: property id\x27) \x3d\x3d 3528 || bt_data(\x27global: property id\x27) \x3d\x3d 3621 || bt_data(\x27global: property id\x27) \x3d\x3d 3758 || (bt_data(\x27global: property id\x27) \x3d\x3d 3947 || bt_data(\x27global: property id\x27) \x3d\x3d 1302))')) {
+serverURL.cf(897096);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(bt_data(\x27global: property id\x27) \x3d\x3d 140 || bt_data(\x27global: property id\x27) \x3d\x3d 370 || bt_data(\x27global: property id\x27) \x3d\x3d 372 || bt_data(\x27global: property id\x27) \x3d\x3d 3627 || bt_data(\x27global: property id\x27) \x3d\x3d 449 || bt_data(\x27global: property id\x27) \x3d\x3d 1183 || bt_data(\x27global: property id\x27) \x3d\x3d 1185 || bt_data(\x27global: property id\x27) \x3d\x3d 1305 || bt_data(\x27global: property id\x27) \x3d\x3d 3800 || bt_data(\x27global: property id\x27) \x3d\x3d 3878 || bt_data(\x27global: property id\x27) \x3d\x3d 3947 || bt_data(\x27global: property id\x27) \x3d\x3d 129 || bt_data(\x27global: property id\x27) \x3d\x3d 281 || bt_data(\x27global: property id\x27) \x3d\x3d 283 || bt_data(\x27global: property id\x27) \x3d\x3d 1443 || bt_data(\x27global: property id\x27) \x3d\x3d 1840 || bt_data(\x27global: property id\x27) \x3d\x3d 1935 || bt_data(\x27global: property id\x27) \x3d\x3d 3277 || bt_data(\x27global: property id\x27) \x3d\x3d 3388 || bt_data(\x27global: property id\x27) \x3d\x3d 3528 || bt_data(\x27global: property id\x27) \x3d\x3d 3621 || bt_data(\x27global: property id\x27) \x3d\x3d 3758 || bt_data(\x27global: property id\x27) \x3d\x3d 1302)')) {
+serverURL.cf(903311);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 1302')) {
+serverURL.cf(1131459);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 430')) {
+serverURL.cf(1155732);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 344')) {
+serverURL.cf(1155747);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 1236')) {
+serverURL.cf(1155770);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 1236')) {
+serverURL.cf(1155788);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 693')) {
+serverURL.cf(1155795);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 3855')) {
+serverURL.cf(1155801);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 377')) {
+serverURL.cf(1155810);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 378')) {
+serverURL.cf(1298679);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 1469')) {
+serverURL.cf(1298701);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(!!bt_data(\x27adobe user capture\x27) \x26\x26 bt_data(\x27adobe user capture\x27) !\x3d 0 \x26\x26 bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22)')) {
+serverURL.cf(1546039);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22')) {
+serverURL.cf(1644283);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true \x26\x26 bt_data(\x27global: spg recognition\x27).indexOf(\x22SPG Recognized\x22) \x3e -1)')) {
+serverURL.cf(2030628);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true \x26\x26 bt_data(\x27global: spg recognition\x27).indexOf(\x22Non-SPG\x22) \x3e -1)')) {
+serverURL.cf(2151588);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true \x26\x26 bt_data(\x27global: spg recognition\x27).indexOf(\x22SPG Authenticated\x22) \x3e -1)')) {
+serverURL.cf(2151629);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 430')) {
+serverURL.cf(2224373);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 344')) {
+serverURL.cf(2224409);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 421')) {
+serverURL.cf(2224425);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 3855')) {
+serverURL.cf(2224457);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 353')) {
+serverURL.cf(2228285);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 693')) {
+serverURL.cf(2228324);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 4046')) {
+serverURL.cf(2228332);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 1236')) {
+serverURL.cf(2233405);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true')) {
+serverURL.cf(2284737);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true')) {
+serverURL.cf(2375755);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true')) {
+serverURL.cf(2395033);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true')) {
+serverURL.cf(2395240);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: lad: property list match\x27) \x3d\x3d true')) {
+serverURL.cf(2472693);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: lad: property list match\x27) \x3d\x3d true')) {
+serverURL.cf(2472789);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: lad: property list match\x27) \x3d\x3d true')) {
+serverURL.cf(2472874);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(bt_data(\x27global: spg level\x27).indexOf(\x22(E)\x22) \x3c 0 \x26\x26 bt_data(\x27regional: nad: sheraton mastercard campaign property list match\x27) \x3d\x3d true)')) {
+serverURL.cf(2584529);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: lad: property list match\x27) \x3d\x3d true')) {
+serverURL.cf(2599956);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: ip address recognition \x27).indexOf(\x22CN\x22) \x3c 0')) {
+serverURL.cf(3018159);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22')) {
+serverURL.cf(3027238);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true')) {
+serverURL.cf(3038555);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 1598')) {
+serverURL.cf(3044230);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: property id\x27) \x3d\x3d 271')) {
+serverURL.cf(3044237);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27global: ip address recognition \x27) !\x3d \x22CN\x22')) {
+serverURL.cf(3071758);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: emea: property list match\x27) \x3d\x3d true')) {
+serverURL.cf(3076556);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: emea: property list match\x27) \x3d\x3d true')) {
+serverURL.cf(3154148);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true')) {
+serverURL.cf(3214430);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true')) {
+serverURL.cf(3294841);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true')) {
+serverURL.cf(3294846);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(bt_data(\x27regional: apac: property list match\x27) \x3d\x3d true \x26\x26 bt_data(\x27global: document url\x27).indexOf(\x22westin\x22) \x3e -1)')) {
+serverURL.cf(3337728);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: apac: property list match\x27) \x3d\x3d true')) {
+serverURL.cf(3368383);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: apac: property list match\x27) \x3d\x3d true')) {
+serverURL.cf(3368428);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: lad: property list match\x27) \x3d\x3d true')) {
+serverURL.cf(3378176);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27regional: nad: americas property list match \x27) \x3d\x3d true')) {
+serverURL.cf(3378435);
+}
+} catch(e) { bt_handle_exception(e); }
+});
+});

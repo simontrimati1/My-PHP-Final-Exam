@@ -1,0 +1,38 @@
+
+/***************  templates/main/css/pageDownloads.widget_listMediaAttachments.css  ***************/
+/* PAGE DOWNLOADS */
+
+
+.widget_listMediaAttachments.pageDownloads
+{
+	margin: 20px 0;
+}
+
+.widget_listMediaAttachments.pageDownloads .item
+{
+	margin-bottom: 5px;
+}
+
+.widget_listMediaAttachments.pageDownloads .item .title {
+	display: list-item;
+	list-style-type: square;
+	list-style-position: inside;
+	font-size: 1em !important;
+	font-weight: normal !important;
+	text-transform: none !important;
+	text-decoration: none !important;
+	padding-left: 4px;
+}
+
+.widget_listMediaAttachments.pageDownloads .item .title a {
+	color: #E8922F !important;
+}
+.widget_listMediaAttachments.pageDownloads .item .title a:hover {
+	color: #5C2314 !important;
+}
+
+.widget_listMediaAttachments.pageDownloads .edit-list-link,
+.new-list-link {
+	display: block;
+	margin: 0.8em 0;
+}

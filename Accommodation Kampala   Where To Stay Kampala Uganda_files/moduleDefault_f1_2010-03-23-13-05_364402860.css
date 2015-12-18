@@ -1,0 +1,39 @@
+
+/***************  templates/main/css/module.defaults.css  ***************/
+.moduleOutput {
+	display: table; zoom: 1; /* Force block formatting context; in IE<=7, use hasLayout to achieve a non-'width soft shrink-wrapped' but otherwise similar effect to display:table */
+	width: 100%; /* Hint for Fx<=2 */
+}
+
+.moduleTaskTitle {
+	display: none;
+}
+
+.itemPreview {
+	position: relative; zoom: 1;
+}
+
+/* START EASY CLEARING */
+.itemPreview:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* END EASY CLEARING */
+
+.itemPreview .itemPreviewEditLink {
+	position: absolute;
+	top: 0;
+	right: -3px;
+}
+
+.itemPreview .itemPreviewEditLink img {
+	float: none !important;
+	margin: 0 !important;
+	border: 0 !important;
+	padding: 0 !important;
+	width: auto !important;
+	height: auto !important;
+}

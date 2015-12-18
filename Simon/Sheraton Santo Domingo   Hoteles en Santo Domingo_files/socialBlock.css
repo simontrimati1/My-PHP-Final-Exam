@@ -1,0 +1,512 @@
+/* Imports */
+/* Brand Variables */
+/* Images Variables */
+/* Old Brand Color Variables -- Erase when all  variables are not needed. */
+/* Sheraton Color Variables */
+/* Brand Gradient Variables */
+/* Brand Font Variables */
+/* Brand IPT Variables */
+/* Imports */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+/* Directories */
+/* Brand Directories */
+/* Common Colors */
+/* Imports */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+#socialContentBar {
+  width: 100%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  border: 1px solid #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+#socialContentBar .titleBarContainer {
+  width: 100%;
+}
+
+#socialContentBar .titleBarContainer h5 {
+  margin-bottom: 15px;
+}
+
+#socialContentBar .titleBarContainer #videoGalleryHeader {
+  width: 25%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+#socialContentBar .titleBarContainer #instGuestGalleryHeader {
+  margin-left: 8.33333%;
+  width: 33.33333%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  padding-left: 6px;
+}
+
+#socialContentBar .titleBarContainer #instGuestReviewsHeader {
+  margin-left: 8.33333%;
+  width: 25%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+#socialContentBar .contentContainerLeft {
+  width: 66.66667%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  padding-left: 0;
+}
+
+#socialContentBar .contentContainerLeft .galleriesButtonsContainer, #socialContentBar .contentContainerLeft .galleriesContainer {
+  width: 100%;
+}
+
+#socialContentBar .contentContainerLeft .galleriesButtonsContainer:before,
+#socialContentBar .contentContainerLeft .galleriesContainer:before, #socialContentBar .contentContainerLeft .galleriesButtonsContainer:after, #socialContentBar .contentContainerLeft .galleriesContainer:after {
+  content: " ";
+  display: table;
+}
+
+#socialContentBar .contentContainerLeft .galleriesButtonsContainer:after, #socialContentBar .contentContainerLeft .galleriesContainer:after {
+  clear: both;
+}
+
+#socialContentBar .contentContainerLeft .galleriesButtonsContainer #viewGuestGalleryLink, #socialContentBar .contentContainerLeft .galleriesContainer #viewGuestGalleryLink {
+  margin-left: 12.5%;
+  width: 50%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+#socialContentBar .contentContainerLeft .galleriesButtonsContainer #viewAllVideosLink, #socialContentBar .contentContainerLeft .galleriesContainer #viewAllVideosLink {
+  width: 37.5%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+#socialContentBar .contentContainerLeft .galleriesContainer #videoGallerySection {
+  width: 37.5%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+#socialContentBar .contentContainerLeft .galleriesContainer #videoGallerySection #videoThumbURL {
+  width: 100%;
+}
+
+#socialContentBar .contentContainerLeft .galleriesContainer #videoGallerySection #imgSocialVideo a span {
+  background: url("/en_US/Media/Graphics/Common/promotions/player_button.png") no-repeat center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+}
+
+#socialContentBar .contentContainerLeft .galleriesContainer #instGuestGallerySection {
+  margin-left: 12.5%;
+  width: 50%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+#socialContentBar .contentContainerLeft .galleriesContainer #instGuestGallerySection .imgCol {
+  width: 25%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+#socialContentBar .contentContainerLeft .galleriesContainer #instGuestGallerySection .imgCol .imgBlock {
+  margin-bottom: 10px;
+}
+
+#socialContentBar .contentContainerLeft .galleriesContainer #instGuestGallerySection .imgCol .imgBlock .lazyLoadImage {
+  width: 100%;
+}
+
+#socialContentBar .contentContainerLeft .galleriesContainer #instGuestGallerySection #imgCol1 {
+  margin-left: -10px;
+}
+
+#socialContentBar .contentContainerLeft .galleriesContainer .thumbs img {
+  width: 100%;
+  height: auto;
+}
+
+#socialContentBar .contentContainerRight {
+  margin-left: 8.33333%;
+  width: 25%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+#socialContentBar .contentContainerRight #localAttractionList {
+  margin-left: 20px;
+  float: left;
+}
+
+#socialContentBar .contentContainerRight #localAttractionList ul {
+  margin-top: 0;
+}
+
+#socialContentBar .contentContainerRight .reviewAndRating p {
+  margin-bottom: 0px;
+  float: left;
+  clear: both;
+}
+
+#socialContentBar .contentContainerRight .reviewAndRating .reviewList {
+  float: left;
+}
+
+#socialContentBar .contentContainerRight .reviewAndRating .reviewList .reviewDetail {
+  color: #11293b;
+}
+
+#socialContentBar .contentContainerRight .reviewAndRating .reviewList .reviewDetail div {
+  float: left;
+  clear: both;
+}
+
+#socialContentBar .contentContainerRight .reviewAndRating .reviewList .reviewDetail span {
+  float: left;
+}
+
+#socialContentBar .contentContainerRight .reviewAndRating .reviewList .reviewDetail .starRating {
+  width: 90px;
+}
+
+#socialContentBar .contentContainerRight .reviewAndRating .reviewList .reviewDetail .outOf {
+  margin: 0 2px;
+}
+
+#socialContentBar .contentContainerRight .reviewAndRating .reviewList .reviewDetail #reviewListed {
+  clear: both;
+}
+
+#socialContentBar .contentContainerRight .reviewAndRating .reviewList .reviewDetail #reviewListed a {
+  color: #6ba8c0;
+}
+
+#socialContentBar .contentContainerRight .reviewAndRating .reviewList .reviewDetail #reviewListed span {
+  margin-left: 0;
+}
+
+#socialContentBar button {
+  background: #a1c5d2;
+  color: #11293b;
+  min-height: 44px;
+  margin: 10px 0;
+  padding: 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-size: 16px;
+  border: none;
+  display: block;
+  font-family: calibreSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+#socialContentBar .titleBarContainer h3 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=socialBlock.css.map */

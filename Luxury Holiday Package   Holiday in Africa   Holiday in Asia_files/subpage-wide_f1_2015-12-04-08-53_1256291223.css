@@ -1,0 +1,221 @@
+
+/***************  templates/main/css/template.subpage-wide.css  ***************/
+div#main-content
+{
+	width: 671px;
+}
+
+div#widgets div.information{
+	color:#6B2818;
+	background:#e1e1e1;
+	padding:10px 15px;
+	margin-bottom:15px;
+}
+div#widgets div.information h2{
+	color:#6B2818;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.1em;
+	text-transform:none;
+	margin:0;
+}
+div#widgets div.information h2 .intro{
+	display:block;
+}
+div#widgets div.information h2 .telphone{
+	color:#f0992f;
+}
+div#widgets div.information h2 .rate{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.8em;
+}
+.newsletter-shortintro{
+	color:#6B2818;
+	font-size:.9em;
+}
+div#widgets div#call-to-action .telephone div.content{
+	top:5px;
+}
+
+div#widgets div#location-map{
+	border-top:1px solid #666;
+	z-index:3;
+	padding:0px 2px 15px 2px;
+}
+	div#widgets div#location-map h2{
+		padding:8px 5px;
+		height:19px;
+		margin:0 auto;
+		text-align:center;
+		color:#f09930;
+		font-size:1.2em;
+	}
+	div#widgets div#location-map p.location-map-text{
+		padding:0px 5px;
+		margin:0;
+		color:#585e61;
+		font-family:"Times New Roman", Times, serif;
+	}
+	
+/*div#main-content #mod_flexibleForms .flexibleFormContainer {
+	margin:0;
+	padding:10px;
+	width:400px;
+}	*/
+div#main-content #mod_flexibleForms form.flexibleForm {
+	margin:0;
+	padding:10px;
+	width:415px;
+}	
+*+html div#main-content #mod_flexibleForms .flexFormFieldHTML {
+	margin:0;
+}
+
+#main-content .itemPreview:after {
+	content: ".";
+	display: block; 
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#main-content .content .wrapper h3.itemPreviewCategoryTitle {
+	background:url(http://www.serenahotels.com/templates/main/images/offersheadingbg.gif) no-repeat scroll 0 0px transparent;
+	color:#E8922F;
+	cursor:pointer;
+	font-size:1.5em;
+	font-weight:bold;
+	margin-top:20px;
+	padding-top:5px;
+}
+#main-content .content .wrapper h3.ui-state-default {
+	background:url(http://www.serenahotels.com/templates/main/images/offersheadingbg.gif) no-repeat scroll 0 -29px transparent;
+	margin:0;
+	padding-top:7px;
+}
+#main-content .itemPreview {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d0d0d0;
+	margin-bottom: 10px;
+	position:relative;
+	zoom:1;
+	clear:both;
+}
+
+#main-content .itemPreview  h3.offerTitle {
+	margin: 0;
+	font-size:1.4em;
+	text-transform:capitalize;
+}
+#main-content .itemPreview  h4.offerSubTitle {
+	color:#353535;
+	font-size:1.2em;
+	font-variant:normal;
+	font-weight:normal;
+	margin:5px 0 1.2em;
+	text-transform:none;
+}
+
+#main-content .itemPreview .imageSection {
+	position:relative;
+	float:left;_display:inline;
+	margin:0 15px 15px 0;
+}
+#main-content .itemPreview .imageSection img.offerImage {
+	display:block;
+	
+}
+
+#main-content .itemPreview .offerIntro {
+	float:left;_display:inline;
+	width:360px;
+}
+
+#main-content .itemPreview p.price {
+	float:right;_display:inline;
+	margin-bottom:18px;
+	padding-left:23px;
+	text-align:right;
+	width:110px;
+	
+	font-size:1.2em;
+}
+
+#main-content .itemPreview p.offerViewLink {
+	float:right;_display:inline;
+}
+
+#main-content p.offerEditLink{
+	position:absolute;
+	left:-9999px;
+}
+.editmode #main-content p.offerEditLink{
+	z-index: 1;
+	right: 0;
+	left:auto;
+	top: 10px;
+	margin: 0;
+	background-color: white;
+	color: black;
+	position:absolute;
+}
+/*Location*/
+.page_location div#main-visual,
+.page_location div#availability-checker,
+.page_location div#widgets{
+	display:none;
+}
+.page_location div#main-content{
+	margin-top:100px;
+}
+
+/*GROUP SPECIAL OFFERS*/
+#page_specialoffers .serena .widget-content:after {
+	content: ".";
+	display: block; 
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#page_specialoffers .serena .category-content .widget-content{
+	margin-right:10px;
+	zoom:1;
+}
+#page_specialoffers .serena h3.itemCategory {
+	background:url(http://www.serenahotels.com/templates/main/images/offersheadingbg.gif) no-repeat scroll 0 -2px transparent;
+	color:#E8922F;
+	cursor:pointer;
+	font-size:1.3em;
+	font-weight:bold;
+	margin-top:20px;
+	padding-top:5px;
+}
+#page_specialoffers .serena h3.offer-title{
+	margin-top:25px;
+}
+
+#page_specialoffers .serena img.itemPreviewImage {
+	float:left;_display:inline;
+	margin-right:20px;
+}
+#page_specialoffers .serena a.more-link {
+	float:right;_display:inline;
+	margin-top:20px;
+}
+
+	#page_contact div#availability-checker .externalLink h2,
+	#page_specialoffers div#availability-checker .externalLink h2,
+	#page_safaris div#availability-checker .externalLink h2{
+		line-height: 45px;
+		font-variant: normal;
+		text-transform: none;
+	}
+	#page_contact div#availability-checker .externalLink a,
+	#page_specialoffers div#availability-checker .externalLink a,
+	#page_safaris div#availability-checker .externalLink a{
+		text-decoration: none;
+	}
+	#page_contact div#availability-checker .externalLink a h2:hover,
+	#page_specialoffers div#availability-checker .externalLink a h2:hover,
+	#page_safaris div#availability-checker .externalLink a h2:hover{
+		color: #f09930;
+	}

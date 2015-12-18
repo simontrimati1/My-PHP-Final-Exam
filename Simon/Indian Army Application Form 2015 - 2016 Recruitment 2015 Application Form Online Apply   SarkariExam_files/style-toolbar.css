@@ -1,0 +1,290 @@
+body,div,ul,ol,li,th,h1 { 
+    margin:0;
+    padding:0;
+}
+
+ol,ul {
+    list-style:none;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 0;
+}
+
+
+/*-- Bottom Toolbar --*/
+
+div#toolbar, div#toolbarbut {
+    position: fixed; /* set fixed position for the bar */
+    bottom: 0px;
+    _right: 0px;
+    z-index: 9999; /* keep the bar on top  */
+    height: 28px;
+/*    background: url(https://mubbistyling.webs.com/toolbar/images/bcktool.png);*/
+    background: url(images/footer-toolbar.png);
+    /* CSS3 */
+    -moz-border-radius-topleft: 8px;
+    -khtml-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -khtml-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+    /* CSS3 end */
+/*    border-top: 1px solid #eee;*/
+    border-top: 1px solid #7B8F94;
+    border-left:1px solid #7B8F94;
+    border-right: 1px solid #7B8F94;
+}
+
+/*div#toolbar {
+     width: 100%; 
+    width:980px;
+    min-width: 700px;
+    margin: 0px auto;
+    left: 0px;
+}*/
+div#toolbar {
+    float: right;
+/*    left: 366px;*/
+/*    margin: 0 auto 0 375px;*/
+    margin: 0 auto;
+    width: 555px;
+/*    width: 745px;*/
+}
+div#toolbarbut { /* div for the 'hide status' */
+    width: 118px;
+    height: 32px;
+/*    margin-right: 3%;*/
+    display: none;
+}
+
+span.showbar a { /* show button */
+    padding: 19px;  
+    font-size: 14px;
+    color: #000080;
+    text-shadow:1px 1px 1px;
+}
+
+.leftside {
+    float: left;
+}
+
+.rightside {
+    float: right;
+}
+
+/*-- Left Side --*/
+
+ul#social li {
+    display: inline;
+}
+/* ul#social li.first { float: left;  padding:0 22px 10px 245px;} */
+ul#social li.first {
+    float: left;
+    padding: 0 10px 10px 22px;
+}
+ul#social li.resume-submit { float: left; padding: 8px 0 0;}
+ul#social li.resume-submit-exam { float: left; padding: 8px 0 0;margin-left: 119px}
+ul#social li.job-alert-mail { float: left; padding:8px 0 0 30px;}
+
+a.rss {
+    display: inline-block;
+    width: 104px;
+    height: 35px;
+    margin-left: 5px;
+    
+    background: url(https://mubbistyling.webs.com/toolbar/images/rss.png) no-repeat;
+}
+a.rss1 {
+    display: inline-block;
+/*    width: 186px;*/
+    height: 35px;
+    margin-left: 5px;
+    color:black !important;
+    font: bold 15px Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 13px !important;
+    color: #555;
+    
+/*    background: url(images/subscribes.gif) no-repeat;*/
+
+}
+a.rss1:hover{ /*color: red ;*/}
+a.resume:hover{ /*color: red; */}
+
+
+a.facebook, a.twitter, a.digg, a.delicious, a.stumble {
+    display: inline-block;
+    width: 40px;
+    height: 35px;        
+    margin-top: 1px;
+}
+
+a.rss:hover, a.facebook:hover, a.twitter:hover, a.digg:hover, a.delicious:hover, a.stumble:hover {
+    background-position: 1px 1px; /* simple css hover effect */
+}
+
+a.facebook1 {
+    display: inline-block;
+    width: 50px;
+    height: 34px;
+    margin-top: -4px;
+    background: url(images/facebook.png) 0 8px no-repeat;
+}
+
+a.resume {
+    display: inline-block;
+    color: black !important;
+/*    width: 104px;*/
+    height: 35px;
+    font: bold 15px Arial,Helvetica,sans-serif;
+    margin-left: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 13px;
+    
+/*    background: url(https://mubbistyling.webs.com/toolbar/images/twitter.png) no-repeat;*/
+}
+a.delicious {
+    background: url(https://mubbistyling.webs.com/toolbar/images/myspace.png) no-repeat;
+}
+
+a.digg {
+    background: url(images/digg.png) no-repeat;
+}
+
+a.stumble {
+    background: url(images/stumble.png) no-repeat;
+}
+
+.tip {
+    position: absolute; /* important */
+    top: -75px;
+    width: 250px;
+    height: 78px;
+    background: url(https://mubbistyling.webs.com/toolbar/images/tip.png) no-repeat;
+    float: left;
+    display: none;
+}
+
+/* custom distances for the icons */
+#tipfacebook {
+    left: -26px; 
+}
+#tiprss{ left: 599px;}
+#tiptwitter {
+    left: 335px; 
+}
+#tipmyspace {
+    left: 165px; 
+}
+
+#tipdigg {
+    left: 210px; 
+}
+
+#tipstumble {
+    left: 255px; 
+}
+
+.tip ul {
+    padding: 23px 0 0 25px;
+}
+
+.tip ul li {
+    display: inline;
+    padding-left: 6px;
+}
+
+.tip ul li a {
+    font-size: 14px;
+    color: blue;
+}       
+
+.tip ul li a:hover {
+    color: #666;
+}
+
+.tip ul li small {
+    font-size: 10px;
+}
+
+/*-- Right Side --*/
+
+span.downarr { /* hide button */ 
+    float: right;
+    border-left: 1px solid #a4a4a4;
+}
+
+span.downarr a {
+    display: block;
+    width: 36px;
+    height: 26px;
+    padding: 25px 0 0 10px;
+    background: url(https://mubbistyling.webs.com/toolbar/images/downarrow.png) no-repeat 5px 6px;
+    display: none;
+}
+
+span.menu_title {
+    background: #e4e4e4;
+    border-left: 1px solid #a4a4a4;
+    padding: 10px;
+}
+
+span.menu_title a {
+    font-size: 16px;
+    line-height: 34px;
+    color: #9a9a9a;
+}
+
+.quickmenu {
+    -moz-border-radius:20px 20px 3px 4px;
+    position: absolute; /* important */
+    top: -303px;
+    right: 46px;
+    width: 260px;
+    height: 300px;
+    background: #e4e4e4;
+    border-top: 1px solid #a4a4a4;
+    border-left: 1px solid #a4a4a4; 
+    border-right: 1px solid #a4a4a4;
+    /* CSS3 */
+    -moz-box-shadow: 2px -3px 5px #c5c5c5, -3px 0px 5px #cdcdcd;
+    -khtml-shadow: 2px -3px 5px #c5c5c5, -3px 0px 5px #cdcdcd;
+    -webkit-box-shadow: 2px -3px 5px #c5c5c5, -3px 0px 5px #cdcdcd;
+    /* CSS3 end */
+    display: none; /* important */
+}
+
+.quickmenu ul {
+    padding-top: 20px;
+}
+
+.quickmenu ul li {
+    border-bottom: 1px solid #989898;    
+    padding: 5px 10px;
+    margin: 0 15px 0 15px;
+}
+
+.quickmenu ul li a {
+    font-size: 18px;
+    color: #989898;
+    display: block;
+}
+
+.quickmenu ul li a:hover {
+    color: #666;
+}
+
+
+
+
+
+

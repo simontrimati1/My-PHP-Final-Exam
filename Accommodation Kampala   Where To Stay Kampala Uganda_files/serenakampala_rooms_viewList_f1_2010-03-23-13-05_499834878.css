@@ -1,0 +1,25 @@
+
+/***************  templates/moduleThemes/default/pukkaRooms/style.viewList.css  ***************/
+#mod_pukkaRooms .itemPreview {
+	clear: both;
+}
+
+#mod_pukkaRooms .itemPreviewImageSection {
+	position: relative;
+}
+
+#mod_pukkaRooms .itemPreviewImageSection img {
+	display: block;
+}
+
+#mod_pukkaRooms .itemPreviewImageSection a.zoomer img {
+	_behavior: url(/png_behavior.htc);
+	position: absolute;
+	top: auto;
+	left: auto;
+	bottom: 0;
+	right: 0;
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}

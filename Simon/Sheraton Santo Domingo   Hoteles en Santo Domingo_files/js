@@ -1,0 +1,13 @@
+(function() {
+    var mid = document.createElement('script'); mid.type = 'text/javascript'; mid.async = true;
+    mid.src = '//mathid.mathtag.com/d/i.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mid, s);
+})();
+
+(window.MathIDInits = window.MathIDInits || []).push(function() {
+    MathID.getData({mt_id:'825581',ccid:'',cuid:'',mm_uuid:'4f78566e-8f3f-4a00-ad7d-2a4785953e79',src:'mt2'}).then(function(data) {
+        var p = document.createElement('script');
+        p.src = '//pixel.mathtag.com/event/js?mt_id=825581&mt_adid=147031&&mathid_data=' + encodeURIComponent(data);
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(p, s);
+    });
+});

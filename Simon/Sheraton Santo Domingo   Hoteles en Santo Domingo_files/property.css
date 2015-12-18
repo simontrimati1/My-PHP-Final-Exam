@@ -1,0 +1,1494 @@
+/* Imports */
+/* Brand Variables */
+/* Images Variables */
+/* Old Brand Color Variables -- Erase when all  variables are not needed. */
+/* Sheraton Color Variables */
+/* Brand Gradient Variables */
+/* Brand Font Variables */
+/* Brand IPT Variables */
+/* Imports */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+/* Directories */
+/* Brand Directories */
+/* Common Colors */
+#pageHeader {
+  background: url("/resources/skins/sheraton/images/sheraton_background_dot.png") repeat;
+  height: auto;
+  padding-top: 105px;
+  padding-bottom: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 44px;
+  padding-right: 44px;
+}
+
+#pageHeader:before,
+#pageHeader:after {
+  content: " ";
+  display: table;
+}
+
+#pageHeader:after {
+  clear: both;
+}
+
+/* Imports */
+/* Imports */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+/*$pi: 3.14159265359;
+$_precision: 10;
+
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1{
+    @for $i from 0 through -$exp {
+      $value: $value / $base;
+    }
+  }
+  @return $value;
+}
+
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0{
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+@function _to_unitless_rad($angle) {
+  @if unit($angle) == "deg" {
+    $angle: $angle / 180deg * $pi;
+  }
+  @if unit($angle) == "rad" {
+    $angle: $angle / 1rad;
+  }
+  @return $angle;
+}
+
+@function sin($angle){
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1) ) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle){
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + ( pow(-1,$n) / fact(2*$n) ) * pow($a,2*$n);
+  }
+  @return $cos;
+}
+
+@function tan($angle){
+  @return sin($angle) / cos($angle);
+}*/
+/* ANIMATION */
+/* ANIMATION KEYFRAMES */
+/* ASPECT RATION */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND IMAGE */
+/* BACKGROUND RADIAL */
+/* BACKGROUND RGBA COLOR */
+/* OVERLAY BACKGROUND */
+/* BORDER RADIUS */
+/* BORDER RADIUS TOP LEFT */
+/* BORDER RADIUS TOP RIGHT */
+/* BORDER RADIUS BOTTOM LEFT */
+/* BORDER RADIUS BOTTOM RIGHT */
+/* BORDER-RADIUS WEBKIT-FIX */
+/* HEADER, TITLES AND SUBTITLES */
+/* NAVIGATION LINK ARROWS */
+/* PAGE HEADER -- GIVES YOU PAGE HEADER STYLE BLOCK */
+/* OPACITY */
+/* ROTATE */
+/* TRANSFORM PROPERTY */
+/* TRANSITION */
+/* TRANSITION ANIMATION */
+/* VENDOR PREFIXING */
+/************************************************************************
+**                              IE FILTERS                             **
+************************************************************************/
+/* RGBA FILTER */
+/* ROTATE FILTER */
+/* Directories */
+/* Brand Directories */
+/* Common Colors */
+#PrimaryColumn li {
+  list-style-type: disc;
+  margin-left: 18px;
+}
+
+#PrimaryColumn ul.adr li, #PrimaryColumn ul.linkGrouping li {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+#PrimaryColumn #hoursOfopt li, #PrimaryColumn #guestPhotosContainer li,
+#PrimaryColumn .restaurantList .restaurant li,
+#PrimaryColumn .propertyInnerPageContent .restaurantList .fasRestaurant li,
+.propertyInnerPageContent #PrimaryColumn .restaurantList .fasRestaurant li, #PrimaryColumn
+#lowerContent #lowerLinksBlock li {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.searchBox.promoSearch .searchBackground {
+  min-width: 916px;
+  max-width: 945px;
+  width: auto;
+}
+
+.searchBox.promoSearch .swui-field label {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.propertyHeader h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.propertyHeader h2 a .icon {
+  vertical-align: top;
+}
+
+.propertyHeader h2 a .icon:before {
+  color: #000000;
+  font-size: 23px;
+  vertical-align: middle;
+}
+
+.propertyHeader .fn {
+  background-color: #0c161f;
+  padding: 0 5px 2px 0;
+  vertical-align: middle;
+}
+
+.propertyHeader #propertyAddressContainer {
+  float: left;
+  background-color: #0c161f;
+}
+
+.propertyHeader #propertyAddressContainer ul {
+  font: normal 14px/22px Arial, Helvetica, Sans-Serif;
+  color: #ffffff;
+  padding-right: 15px;
+}
+
+.propertyHeader #propertyAddressContainer ul li {
+  list-style-type: disc;
+  /*padding-right: 6px;
+          margin-left: 4px;*/
+  background: none;
+}
+
+.propertyHeader #propertyAddressContainer ul li span {
+  /*margin-left: -4px;*/
+}
+
+.propertyHeader #propertyAddressContainer ul li.street-address, .propertyHeader #propertyAddressContainer ul li.propertyPhoneNumber,
+.propertyHeader #propertyAddressContainer ul li.region, .propertyHeader #propertyAddressContainer ul li.postal-code {
+  list-style-type: none;
+}
+
+.propertyHeader #propertyAddressContainer ul li.city, .propertyHeader #propertyAddressContainer ul li.country-name, .propertyHeader #propertyAddressContainer ul li.propertyMap,
+.propertyHeader #propertyAddressContainer ul li.propertyContactUs, .propertyHeader #propertyAddressContainer ul li.propertyAnnouncements,
+.propertyHeader #propertyAddressContainer ul li.propertyTime, .propertyHeader #propertyAddressContainer ul li.propertyExternalSite {
+  margin-left: 11px;
+}
+
+.propertyHeader #propertyAddressContainer ul li.city span, .propertyHeader #propertyAddressContainer ul li.country-name span, .propertyHeader #propertyAddressContainer ul li.propertyMap span,
+.propertyHeader #propertyAddressContainer ul li.propertyContactUs span, .propertyHeader #propertyAddressContainer ul li.propertyAnnouncements span,
+.propertyHeader #propertyAddressContainer ul li.propertyTime span, .propertyHeader #propertyAddressContainer ul li.propertyExternalSite span {
+  margin-left: -4px;
+}
+
+@-moz-document url-prefix() {
+  .propertyHeader #propertyAddressContainer ul li.city span, .propertyHeader #propertyAddressContainer ul li.country-name span, .propertyHeader #propertyAddressContainer ul li.propertyMap span,
+  .propertyHeader #propertyAddressContainer ul li.propertyContactUs span, .propertyHeader #propertyAddressContainer ul li.propertyAnnouncements span,
+  .propertyHeader #propertyAddressContainer ul li.propertyTime span, .propertyHeader #propertyAddressContainer ul li.propertyExternalSite span {
+    padding-left: 7px;
+  }
+}
+
+.propertyHeader #propertyAddressContainer ul a {
+  color: #a1c5d2;
+}
+
+/* begin wishlist */
+#wishlistInfo {
+  float: right;
+  margin-top: 10px;
+}
+
+#wishlistInfo #addToWishlistIcon {
+  cursor: pointer;
+  color: #a1c5d2;
+}
+
+#wishlistInfo #addToWishlistIcon:before {
+  font-family: Starwood;
+  content: "\e64f";
+  font-size: 24px;
+  position: absolute;
+  margin-left: 5px;
+}
+
+#wishlistInfo #addToWishlistIcon span {
+  padding-left: 37px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#popUpSelectWishlist {
+  background-color: #ffffff;
+  border: 10px solid #eeeeee;
+  height: 353px;
+  position: absolute;
+  right: 180px;
+  top: 50px;
+  width: 782px;
+  z-index: 1000;
+}
+
+#popUpSelectWishlist .wishlistHeader {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #eeeeee;
+}
+
+#popUpSelectWishlist .wishlistHeader .closeLink {
+  color: #6ba8c0;
+  cursor: pointer;
+  float: right;
+  margin-top: -12px;
+  padding: 1px 0 0 8px;
+  font: bold 14px/18px Arial, Helvetica, Sans-Serif;
+  text-transform: uppercase;
+}
+
+.innerWishlistContainer h2,
+.innerWishlistContainer h3 {
+  padding-left: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.innerWishlistContainer h2 span.fn {
+  background-color: #ffffff !important;
+  color: #11293b;
+}
+
+#popUpSelectWishlist .innerWishlistContainer ul li.topError {
+  margin-left: 10px;
+}
+
+#popUpSelectWishlist .innerWishlistContainer select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: #ffffff url("/whotels/images/doubleArrow.png") no-repeat scroll 240px 11px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 7px 0 0 15px;
+  width: 260px;
+  font: bold;
+  padding-left: 12px;
+}
+
+#popUpSelectWishlist .innerWishlistContainer input {
+  border-radius: 10px;
+  height: 30px;
+  margin: 8px 0 0 228px;
+  width: 260px;
+}
+
+#popUpSelectWishlist .innerWishlistContainer h3 {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+#popUpSelectWishlist .innerWishlistContainer p {
+  margin: 10px;
+  float: left;
+}
+
+#popUpSelectWishlist .innerWishlistContainer label {
+  float: left;
+  margin: 15px 0 0 35px;
+}
+
+#popUpSelectWishlist .innerWishlistContainer div.actionButton button {
+  margin: 15px 0 0 310px;
+  float: left;
+}
+
+#popUpSelectWishlist .innerWishlistContainer .hide {
+  display: none;
+}
+
+#popUpSelectWishlist .innerWishlistContainer .show {
+  display: initial;
+}
+
+#popUpSelectWishlist .innerWishlistContainer .dropdownContainer {
+  float: left;
+  margin-left: 68px;
+}
+
+/* end wish list */
+#SubHeader {
+  padding-bottom: 20px;
+  border-bottom: 1px #c5c6c6 solid;
+  margin-bottom: 20px;
+}
+
+#SubHeader #brandnavcontainer ul li {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-family: calibreSemiBold, Arial, Helvetica, Sans-Serif;
+  font-size: 15px;
+}
+
+.helpTitle {
+  margin: 0 0 30px 0;
+  color: #FFF;
+  font-weight: bold;
+}
+
+#additionalpropertyAddress {
+  clear: both;
+}
+
+#propertyInformation h1 {
+  color: #fff;
+  margin-bottom: 10px;
+  width: 80%;
+  float: left;
+}
+
+#propertyInformation #propertyAddressContainer {
+  color: #fff;
+  font-size: 14px;
+  clear: both;
+}
+
+#Content {
+  padding-top: 20px;
+}
+
+#navlist a {
+  color: #8b8d8d;
+}
+
+#navlist a.locked {
+  color: #11293b;
+}
+
+/*Inner Pages*/
+.propertyInnerPageHeader, #localAreaMapContainer {
+  margin-top: -12px;
+}
+
+.propertyInnerPageHeader h2, #localAreaMapContainer h2 {
+  padding-bottom: 15px;
+}
+
+.propertyInnerPageHeader .propertyNameHeading, .propertyInnerPageHeader .offersTitle .propertyTitleStyling, #localAreaMapContainer .propertyNameHeading, #localAreaMapContainer .offersTitle .propertyTitleStyling {
+  padding-bottom: 0px;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 14px;
+}
+
+h1 .propertyTitleStyling {
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 14px;
+  color: #8b8d8d;
+}
+
+h1 .featureStyling {
+  font-family: encorpadaClassicRegular, Arial, Helvetica, Sans-Serif;
+  font-size: 30px;
+}
+
+.slideshowContainer .navigationContainer .navigationElements .photoCount {
+  color: #000000;
+}
+
+.slideshowContainer .navigationContainer .navigationElements .photoCount .photoCountStart, .slideshowContainer .navigationContainer .navigationElements .photoCount .photoCountConjuntion, .slideshowContainer .navigationContainer .navigationElements .photoCount .photoCountTotal {
+  font-weight: bold;
+}
+
+.slideshowContainer .navigationContainer .navigationElements .imageDescription {
+  color: #000000;
+}
+
+#socialMediaContainer .propertyInnerPageHeader {
+  margin-top: -6px;
+}
+
+.propertyInnerPageContent {
+  float: left;
+}
+
+.propertyInnerPageContent .diningSubHead {
+  padding-top: 25px;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant, .propertyInnerPageContent .restaurantList .fasRestaurant {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c5c6c6;
+  float: left;
+  width: 100%;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant .imageDiv, .propertyInnerPageContent .restaurantList .fasRestaurant .imageDiv {
+  width: 22.22222%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  margin-left: -10px;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant .imageDiv img, .propertyInnerPageContent .restaurantList .fasRestaurant .imageDiv img {
+  width: 100%;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant .descriptionWithImage, .propertyInnerPageContent .restaurantList .fasRestaurant .descriptionWithImage {
+  width: 77.77778%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant .descriptionWithImage a, .propertyInnerPageContent .restaurantList .fasRestaurant .descriptionWithImage a {
+  color: #6ba8c0;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant ul.linkGrouping, .propertyInnerPageContent .restaurantList .fasRestaurant ul.linkGrouping {
+  float: left;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant ul.linkGrouping li a, .propertyInnerPageContent .restaurantList .fasRestaurant ul.linkGrouping li a {
+  padding-left: 0;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant .name, .propertyInnerPageContent .restaurantList .fasRestaurant .name {
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant .attributes, .propertyInnerPageContent .restaurantList .fasRestaurant .attributes {
+  width: 100%;
+  float: left;
+  margin: 0;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant .attributes .key, .propertyInnerPageContent .restaurantList .fasRestaurant .attributes .key {
+  width: 22.22222%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  padding-left: 0;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.propertyInnerPageContent .restaurantList .restaurant .attributes .value, .propertyInnerPageContent .restaurantList .fasRestaurant .attributes .value {
+  width: 77.77778%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+.propertyInnerPageContent .restaurantList .fasRestaurant {
+  border-top: 1px solid #c5c6c6;
+  border-bottom: none;
+}
+
+.propertyInnerPageContent .restaurantList .lastRestaurant {
+  border-bottom: none;
+}
+
+.propertyInnerPageContent .restaurantList .firstFasRestaurant {
+  border-top: none;
+}
+
+.propertyInnerPageContent .linkGrouping li a {
+  color: #6ba8c0;
+}
+
+#SecondaryColumn {
+  padding-left: 0;
+}
+
+#SecondaryColumn .leftNav {
+  margin-top: 0;
+}
+
+#SecondaryColumn .leftNav li {
+  margin-bottom: 20px;
+}
+
+#SecondaryColumn .leftNav li a {
+  font-family: calibreSemiBold, Arial, Helvetica, Sans-Serif;
+  font-size: 18px;
+  color: #8b8d8d;
+}
+
+#SecondaryColumn .leftNav li a.locked {
+  color: #11293b;
+}
+
+#SecondaryColumn #rateSearchContainer {
+  background: #eeeeee;
+  padding: 20px 20px 20px;
+  float: left;
+  width: 100%;
+  /* date picker */
+  /* party mix */
+  /* Best rate */
+}
+
+#SecondaryColumn #rateSearchContainer #roomsModule {
+  border-top: none;
+  font-size: inherit;
+  margin-right: 0;
+  padding: 0;
+}
+
+#SecondaryColumn #rateSearchContainer #roomsModule > h3 {
+  padding-bottom: 7px;
+  font: 22px calibreSemiBold, Arial, Helvetica, Sans-Serif;
+  text-transform: uppercase;
+  color: #11293b;
+}
+
+#SecondaryColumn #rateSearchContainer #searchForm .roomPreferences {
+  margin: 0;
+}
+
+#SecondaryColumn #rateSearchContainer #searchForm .roomPreferences div {
+  margin: 1px 0;
+  padding: 5px 10px;
+}
+
+#SecondaryColumn #rateSearchContainer form {
+  margin: 0;
+  padding: 0;
+  display: inherit;
+}
+
+#SecondaryColumn #rateSearchContainer form input[type="submit"], #SecondaryColumn #rateSearchContainer form button {
+  width: 100%;
+}
+
+#SecondaryColumn #rateSearchContainer label {
+  color: #11293b;
+  font-size: 14px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-widget.swui-date-picker.is-desktop.vertical.right.has-error .error-container {
+  left: 100%;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-party-mix .toggle-content .swui-label {
+  font-size: 12px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-date-picker .swui-calendar-icon {
+  left: 10px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-date-picker.right .swui-calendar {
+  top: 0;
+  left: 100%;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-date-picker .swui-calendar-icon:before {
+  font-size: 28px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-date-picker .swui-field input {
+  padding-left: 36px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-date-picker input[type="text"] {
+  border-radius: 0;
+  height: 44px;
+  font-size: inherit;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-date-picker .swui-date-display {
+  padding-left: 10px;
+  border-radius: 0;
+  top: 1px;
+  left: 1px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-calendar header h3 {
+  font-weight: bold;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-party-mix .toggle-content {
+  max-width: 130px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-party-mix a.toggle {
+  width: 157px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-party-mix.right a.toggle:after {
+  top: 8px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-party-mix.right a.toggle:before {
+  left: 149px;
+  z-index: 5;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-party-mix.right .swui-field-group {
+  z-index: 4;
+  left: 157px;
+  top: -1px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-party-mix.swui-show a.toggle:link {
+  background: #ffffff;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-date-picker.right.swui-arrival .swui-field-arrival:after, #SecondaryColumn #rateSearchContainer .swui-date-picker.right.swui-departure .swui-field-departure:after {
+  left: 100%;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-date-picker.vertical .swui-field {
+  width: 100%;
+  padding: 9px 7px;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-field-group input {
+  width: auto;
+}
+
+#SecondaryColumn #rateSearchContainer .swui-field-group select {
+  width: 54px;
+}
+
+#SecondaryColumn #rateSearchContainer #bestRateContainer, #SecondaryColumn #rateSearchContainer #redeembox {
+  float: inherit;
+  clear: both;
+  margin: 0;
+}
+
+#SecondaryColumn #rateSearchContainer #redeembox {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+#SecondaryColumn .linkBox {
+  clear: both;
+}
+
+#SecondaryColumn .linkBox span.arrow {
+  display: inline-block;
+  float: left;
+  width: 12px;
+  height: 12px;
+  border-width: 3px;
+  -webkit-transform: rotate(-45deg);
+  -khtml-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  border: solid;
+  border-right: 0;
+  margin-top: 6px;
+  margin-right: 5px;
+  border-bottom: 0;
+  border-color: #6ba8c0;
+  transform: rotate(-45deg);
+  text-indent: -3000px;
+}
+
+/* Photos Page */
+.linkContainer {
+  float: left;
+  width: 100%;
+  background-color: #eeeeee;
+  color: #11293b;
+}
+
+.linkContainer .linkButtonText {
+  font: normal calibreSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+.linkContainer .linkArrow:after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: transparent;
+  top: 15px;
+  right: 35px;
+  border: 4px solid #a1c5d2;
+  border-top: none;
+  border-right: none;
+  transform: rotate(-135deg);
+}
+
+.photoSection .guestGallery a {
+  color: #11293b;
+}
+
+#connectAndLike {
+  width: 50%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+#connectAndLike #connectBar {
+  float: right;
+}
+
+#connectAndLike .connectBlock {
+  float: right;
+}
+
+#connectAndLike .connectBlock .connectSocial, #connectAndLike .connectBlock #fbLike {
+  float: right;
+  clear: both;
+}
+
+#connectAndLike .connectBlock .socialMediaList {
+  float: left;
+}
+
+#connectAndLike .connectBlock .conLink {
+  padding-top: 26px;
+  padding-right: 10px;
+  float: left;
+  max-width: 340px;
+  text-align: right;
+}
+
+#connectAndLike .connectBlock .conLink a {
+  color: #000000;
+}
+
+#connectAndLike .connectBlock .socialMediaList ul {
+  margin-bottom: 10px;
+}
+
+#connectAndLike .connectBlock .socialMediaList ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#connectAndLike .connectBlock .socialMediaList ul li .socialIcon {
+  background: #8b8d8d;
+  color: white;
+  padding-top: 7px;
+  height: 45px;
+  width: 45px;
+  display: block;
+  text-align: center;
+}
+
+#connectAndLike .connectBlock .socialMediaList ul li .socialIcon:before {
+  font-size: 28px;
+}
+
+#connectAndLike .connectBlock .facebookLike {
+  float: right;
+  clear: both;
+}
+
+#lowerRatings {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+#lowerRatings .reviewAndRating {
+  width: 16.66667%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  left: 83.33333%;
+  left: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+#lowerRatings .reviewAndRating .reviewList .reviewDetail {
+  color: #11293b;
+}
+
+#lowerRatings .reviewAndRating .reviewList .reviewDetail div {
+  float: left;
+  clear: both;
+}
+
+#lowerRatings .reviewAndRating .reviewList .reviewDetail span {
+  float: left;
+}
+
+#lowerRatings .reviewAndRating .reviewList .reviewDetail .starRating {
+  width: 90px;
+}
+
+#lowerRatings .reviewAndRating .reviewList .reviewDetail .outOf {
+  margin: 0 2px;
+}
+
+#lowerRatings .reviewAndRating .reviewList .reviewDetail #reviewListed {
+  clear: both;
+  padding-top: 10px;
+}
+
+#lowerRatings .reviewAndRating .reviewList .reviewDetail #reviewListed a {
+  color: #6ba8c0;
+}
+
+#lowerRatings .reviewAndRating .reviewList .reviewDetail #reviewListed span {
+  margin-left: 0;
+  width: 100%;
+}
+
+.fasFeatureList {
+  width: 100%;
+  float: left;
+}
+
+.fasFeatureList .featureSection {
+  width: 100%;
+  float: left;
+  border-top: 1px solid #c5c6c6;
+  padding: 20px 0 10px 0;
+}
+
+.fasFeatureList .featureSection .featureArea {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.fasFeatureList .featureSection .featureArea:before,
+.fasFeatureList .featureSection .featureArea:after {
+  content: " ";
+  display: table;
+}
+
+.fasFeatureList .featureSection .featureArea:after {
+  clear: both;
+}
+
+.fasFeatureList .featureSection .featureArea .featureImage {
+  width: 22.22222%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+.fasFeatureList .featureSection .featureArea .featureImage img {
+  width: 100%;
+}
+
+.fasFeatureList .featureSection .featureArea h5.featureTitle {
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+
+.fasFeatureList .featureSection .featureArea .featureDescription {
+  width: 77.77778%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+.fasFeatureList .featureSection .featureArea .featureDescriptionNoImage {
+  width: 100%;
+  min-height: 1px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+.fasFeatureList .firstFeature {
+  border-top: none;
+}
+
+.highlightBox {
+  border: none;
+}
+
+.rfpButton {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+/* Language interstitial popup */
+.yui-panel-container #wait {
+  padding: 75px 45px;
+  font: 16px/18px Arial, Helvetica, Sans-Serif;
+  color: #8b8d8d;
+}
+
+.yui-panel-container #wait a {
+  color: #6ba8c0;
+}
+
+/* best Rate styles */
+#bestRate {
+  margin-top: 11px;
+}
+
+#bestRate .brg-circle {
+  position: absolute;
+  color: white;
+}
+
+#bestRate .brg-check {
+  position: absolute;
+  margin: -4px 0 0px 4px;
+  color: #a1c5d2;
+}
+
+#bestRate .bestRateLink {
+  font: 14px Arial, Helvetica, Sans-Serif;
+  line-height: 15px;
+  float: left;
+  margin-left: 42px;
+  margin-top: 5px;
+  color: #8b8d8d;
+  width: 143px;
+}
+
+#bestRate .bestRateLink span:after {
+  content: '>';
+  padding: 2px;
+}
+
+.hotelFacts .factLink {
+  float: left;
+}
+
+.hotelFacts span {
+  position: relative;
+  top: 10px;
+}
+
+.lang_ru_RU #SubHeader #brandnavcontainer ul li {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+#centerContentContainer .highlightBox {
+  padding: 20px 0;
+  border-top: 1px solid #c5c6c6;
+  border-bottom: 1px solid #c5c6c6;
+  width: 100%;
+}
+
+.directions, .popupLink, .legal, .highlightBox {
+  float: left;
+}
+
+#awardBox h3 {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+/* Hide right-side of global brand footer on property pages */
+.property #Footer .footerNavigation .rightSection {
+  display: none;
+}
+
+.clearDiv {
+  clear: both;
+}
+
+/*Bazaar Voice section prop overview styles */
+.bazaarVoiceSection {
+  float: left;
+  margin-left: 0px;
+  width: 100%;
+  height: 217px;
+  border: 1px solid #eeeeee;
+  margin-bottom: 12px;
+  padding-left: 18px;
+}
+
+.bazaarVoiceSection #leftSection,
+.bazaarVoiceSection #rightSection {
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+
+.bazaarVoiceSection #leftSection div,
+.bazaarVoiceSection #rightSection div {
+  color: #11293b;
+}
+
+.bazaarVoiceSection #leftSection {
+  width: 45%;
+}
+
+.bazaarVoiceSection #leftSection .starRating.propBVRating {
+  float: left;
+  height: 22px;
+  margin-right: 20px;
+}
+
+.bazaarVoiceSection #leftSection .starRating.propBVRating span {
+  height: 22px;
+}
+
+.bazaarVoiceSection #leftSection .recommendSection .recommendationNo {
+  font-size: 38px;
+}
+
+.bazaarVoiceSection #leftSection .ratingDisplay .ratingVal {
+  font-size: 38px;
+}
+
+.bazaarVoiceSection #leftSection #header {
+  font-family: calibreSemiBold, Arial, Helvetica, Sans-Serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: capitallize;
+  color: #11293b;
+  margin-top: 10px;
+}
+
+.bazaarVoiceSection #leftSection div {
+  margin-bottom: 22px;
+  font-weight: bold;
+  font-family: encorpadaClassicRegular, Arial, Helvetica, Sans-Serif;
+  text-transform: uppercase;
+}
+
+.bazaarVoiceSection #leftSection .ratingStars {
+  min-height: 22px;
+  position: relative;
+}
+
+.bazaarVoiceSection #leftSection .ratingStars .bvStarRating {
+  margin-right: 38px;
+  float: left;
+}
+
+.bazaarVoiceSection #leftSection .ratingStars a {
+  position: absolute;
+  bottom: 0;
+  text-transform: capitalize;
+}
+
+.bazaarVoiceSection #rightSection {
+  margin-top: 37px;
+  border-left: 1px solid #eeeeee;
+  padding-left: 98px;
+  color: #11293b;
+}
+
+.bazaarVoiceSection #rightSection .starRating.propBVRating {
+  width: 196px;
+  min-height: 7px;
+  margin-top: 3px;
+}
+
+.bazaarVoiceSection #rightSection .secondaryRating {
+  float: left;
+  margin-bottom: 13px;
+  min-width: 200px;
+}
+
+.bazaarVoiceSection .starRating.propBVRating {
+  position: relative;
+}
+
+.bazaarVoiceSection .starRating.propBVRating span {
+  position: absolute;
+  text-indent: -9999px;
+}
+
+#awardBox .highlightBox {
+  width: 100%;
+  padding-left: 0px;
+}
+
+#additionalInformation .crisisDisplayContainer {
+  padding: 20px 0 0;
+}
+
+.crisisDisplayContainer {
+  width: 100%;
+  clear: both;
+}
+
+.crisisDisplayContainer .crisisBlock {
+  height: inherit;
+  margin-bottom: 0;
+  background: #ffffff url("/resources/skins/sheraton/images/crisisIcon.gif") no-repeat 0px center;
+  padding: 0 0 0 60px;
+}
+
+.crisisDisplayContainer .crisisBlock h3 {
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #a7042a;
+}
+
+.crisisDisplayContainer .crisisBlock .crisisDesc {
+  color: #a7042a;
+}
+
+.crisisDisplayContainer .fullCrisisBlock {
+  display: none;
+}
+
+.crisisDisplayContainer .show .fullCrisisBlock {
+  background-color: #ffffff;
+  padding: 15px 15px 10px;
+}
+
+.lateCheckout {
+  margin: 10px 10px 30px 0;
+}
+
+.announcements p {
+  margin-bottom: 23px;
+}
+
+#collapsibleFooter {
+  float: left;
+  width: 100%;
+  margin-top: -30px;
+}
+
+#connectAndLike .connectBlock .socialMediaList {
+  float: right;
+}
+
+#connectAndLike .connectBlock .conLink {
+  height: 80px;
+}
+
+.leftNav li a {
+  text-transform: uppercase;
+}
+
+.crisisBlock > h3 {
+  color: #FF0000;
+}
+
+.crisisMessage {
+  color: #FF0000;
+}
+
+.bazaarVoiceSection #leftSection div {
+  font-size: 20px;
+  font-family: calibreSemiBold, Arial, Helvetica, Sans-Serif;
+}
+
+.bazaarVoiceSection #leftSection .recommendSection {
+  font-family: Arial, Helvetica, Sans-Serif;
+}
+
+/*# sourceMappingURL=property.css.map */

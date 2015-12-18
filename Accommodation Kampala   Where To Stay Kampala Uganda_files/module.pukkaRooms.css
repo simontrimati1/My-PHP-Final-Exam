@@ -1,0 +1,26 @@
+/* ================ PUKKAROOMS =============== */
+
+
+#mod_pukkaRooms.viewList .itemPreview {
+	margin-bottom: 0.9em;
+}
+
+#mod_pukkaRooms.viewList .itemPreviewTitle {
+	margin-top: 0;
+}
+
+#mod_pukkaRooms.viewList .itemPreviewImageSection {
+	float:left;_display:inline;
+	margin:0 10px 10px 0;
+}
+#mod_pukkaRooms.viewList .itemContent {
+	float:left;_display:inline;
+	width:270px;
+}
+#mod_pukkaRooms.viewList .itemContent p {
+	margin-top:0;
+}
+
+#mod_pukkaRooms.viewList .itemPreviewBookingLink {
+	margin-bottom: 0;
+}
